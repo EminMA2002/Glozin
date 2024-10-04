@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footter{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.footterchild{
+    width: 100%;
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+
+.helpcustomers{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 70%;
+}
+
+.helpcustomertitle{
+font-family: inssbold;
+font-size: 15px;
+color: black;
+}
+
+
+.helpcustomertext, .footternumber, .foottermail{
+    font-family: insregu;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.618);
+}
+
+.foottersecondcate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footterthirdcate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footterdivtitle{
+    font-family: inssbold;
+font-size: 15px;
+color: black;
+}
+
+.footterdivcont{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618);
+}
+
+.foottersignupfather{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.foottersignuptitle{
+    font-family: inssbold;
+font-size: 15px;
+color: black;
+}
+
+.foottersignuptext{
+    font-family: insregu;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.618);
+}
+
+.footterbuttons{
+    display: flex;
+    gap: 20px;
+}
+
+.footemailinput{
+ width: 200px;
+ height: 40px; 
+ border-radius: 99px;
+ border: 0.1px solid rgba(0, 0, 0, 0.316);  
+ padding-left: 20px;
+ font-family: insregu;
+}
+
+.footersignupbutton{
+    width: 150px;
+    height: 40px; 
+    border-radius: 99px;
+    border-width: 0;
+    background-color: black;
+    color: white; 
+    font-family: insmed;
+}
+
+.footterlasttext{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618);   
+}
+
+.rightfotter{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftfotter{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foottericons{
+    display: flex;
+    gap: 10px;
+}
+
+.foottericon{
+    font-size:12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.508);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 99px;
+    border: 1px solid rgba(0, 0, 0, 0.508);
+}
+
+@media only screen and (max-width:1020px) {
+.footterchild{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rightfotter{
+    width: 80%;
+}
+
+.leftfotter{
+    width: 80%;
+}
+
+}
+
+
+@media only screen and (max-width:765px) {
+    .foottersecondcate, .rightfotter{
+        display: none;
+    }
+    }

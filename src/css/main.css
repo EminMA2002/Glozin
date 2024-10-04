@@ -1,0 +1,686 @@
+@import url(nav.css);
+@import url(fonts.css);
+@import url(footter.css);
+@import url(shop.css);
+@import url(aboutus.css);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.firstsliderfther{
+    width: 100%;
+    height: 95vh;
+    padding-top: 70px;
+}
+
+.firstsliderchild{
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.siderimg{
+    width: 100%;
+    height: 100%;
+}
+
+.sliderphoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slidercontent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 10%;
+    left: 5%;
+}
+
+.firstslidercontenttitle{
+    font-size: 14px;
+    font-family: insmed;
+    color: black;
+}
+
+.firstslidercontenttext{
+    font-size: 70px;
+    font-family: inssbold;
+    color: black;
+}
+
+.firstslidercontentbutton{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 99px;
+    border-width: 0;
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.topcollectionsfather{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 100px;
+}
+
+.topcollectionschild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+
+.topcollectionscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.topcollectionstitle{
+font-family: insmed;
+font-size: 40px;
+}
+
+.topcollectionstext{
+font-family: insregu;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.523);
+}
+
+.topcollectionscircles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.circlephoto{
+    width: 185px;
+    height: 185px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s ease;
+}
+
+.circleimg:hover{
+    transform: scale(1.03, 1.03);
+}
+
+.circletitle{
+    font-family: inssbold;
+}
+
+.bestsellingfather{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.bestsellingchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.bestsellingcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.bestsellingtitle{
+font-family: insmed;
+font-size: 40px;
+}
+
+.bestsellingtext{
+font-family: insregu;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.523);
+}
+
+.itemsfather{
+    margin-top: 40px;
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.itemphoto{
+    width: 330px;
+    height: 430px;
+}
+
+.itemimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.itemtitle{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.itemstars{
+    font-size: 12px;
+}
+
+.startext{
+    color: #f3b400;
+}
+
+.itemcost{
+    font-family: insbold;
+    font-size: 15px;
+}
+
+.itemversions{
+    display: flex;
+    gap: 10px;
+}
+
+.version{
+    width: 30px;
+    height: 30px;
+}
+
+.versionimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 99px;
+}
+
+.onetimeonlyfather{
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+.onetimeonlychild{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.onetimeonlyphoto{
+    width: 100%;
+    height: 100%;
+}
+
+.onetimeonlyimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.onetimeonlycontent{
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.onetimeexplore{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dealoftheweek{
+    font-family: inssbold;
+    font-size: 12px;
+}
+
+.onetimeonly{
+    font-family: insmed;
+    font-size: 45px;
+}
+
+.exploreour{
+    font-family: insregu;
+    font-size: 14px;
+}
+
+.onetimeonlybutton{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 99px;
+    border-width: 0;
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+
+.trendingfather{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.trendingchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+    gap: 30px;
+}
+
+.trendingcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.trendingtitle{
+font-family: insmed;
+font-size: 40px;
+}
+
+.trendingtext{
+font-family: insregu;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.523);
+}
+
+.trendingitemsfather{
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
+
+.trendingitems{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.trendingitemphoto{
+    width: 330px;
+    height: 430px;
+}
+
+.trendingitemimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.trendingitemtitle{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.trendingitemstars{
+    font-size: 12px;
+}
+
+.trendingstartext{
+    color: #f3b400;
+}
+
+.trendingitemcost{
+    font-family: insbold;
+    font-size: 15px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.discountedcost{
+    color: rgba(0, 0, 0, 0.312);
+    font-family: insmed;
+    text-decoration:line-through ;
+}
+
+.trendingitemversions{
+    display: flex;
+    gap: 10px;
+}
+
+.trendingversion{
+    width: 30px;
+    height: 30px;
+}
+
+.trendingversionimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 99px;
+}
+
+.customersayfather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.customersaychild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.customersaytitle{
+    font-family: insmed;
+    font-size: 40px;
+    }
+    
+.customersaytext{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+    }
+
+.customercards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.customercard{
+    width: 670px;
+    height: 320px;
+    background-color: white;
+    border-radius: 10px;
+    border: .2px solid rgba(0, 0, 0, 0.059);
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+.cardphoto{
+    width: 35%;
+    height: 100%;
+}
+
+.cardimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardcontent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardstars{
+    display: flex;
+    gap: 1px;
+}
+
+.cardstar{
+    color:#f3b400;
+}
+
+
+.cardcustomername{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.cardcustomercomment{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.716);
+}
+
+.cardspan{
+    margin-left: 10px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.504);
+}
+
+.cardline{
+    width: 100%;
+    height: 0.1px;
+    border-radius: 99px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.buyelement{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.buyelementphoto{
+    width: 60px;
+    height: 60px;
+}
+
+.buyelementimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 99px;
+}
+
+.buyelementcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buyelementtitle{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.buyelementcost{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.Hello{
+    width: 100%;
+}
+
+.Hellochild{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Hellotitle{
+    font-family: inssbold;
+    font-size: 35px;
+}
+
+.Hellotext{
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    width: 60%;
+}
+
+.shopbygram{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.shopbygramchild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+    gap: 10px;
+}
+
+.shopbygramtitle{
+    text-align: center;
+    font-family: inssbold;
+    font-size: 35px;
+}
+
+.shopbygramtext{
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        font-family: insregu;
+        font-size: 15px;
+        width: 100%;
+}
+
+.shopbygramcards{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopbygramcard{
+    position: relative;
+    width: 230px;
+    height: 230px;
+}
+
+.shopbygramimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shopbygramphotoicon{
+    display: flex;
+    border-radius: 99px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
+.footcategories{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footcategorieschild{
+    width: 100%;
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.categoryicon{
+    color: rgba(0, 0, 0, 0.737);
+    text-align: center;
+    font-size: 25px;
+}
+
+.categorytitle{
+font-family: inssbold;
+font-size: 15px;
+text-align: center;
+}
+
+.categorytext{
+width: 85%;
+font-family: insregu;
+font-size: 15px;
+text-align: center;
+color: rgba(0, 0, 0, 0.638);
+}
+
+.line{
+    margin-top: 100px;
+    width: 100%;
+    height: .1px;
+    background-color: rgba(0, 0, 0, 0.142);
+}

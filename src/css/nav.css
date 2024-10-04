@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.126);
+}
+.navchild{
+    max-width: 1560px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 15px 35px;
+    justify-content: space-between;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contentfather{
+    display: flex;
+    align-items: center;  
+    gap: 5px; 
+}
+
+.navcontent{
+    font-family: inssbold;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.chevarrownav{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 8px;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchanvbar{
+    width: 200px;
+    height: 40px;
+    border-radius: 99px;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.444);
+    font-family: insregu;
+    padding-left: 40px;
+}
+
+
+.heart, .personicon, .bag{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.notificationheart{
+    top: -8px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 99px;
+    position: absolute;
+    color: white;
+    background-color: rgb(217, 58, 58);
+    font-family: insregu;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notificationbag{
+    top: -8px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 99px;
+    position: absolute;
+    color: white;
+    background-color: rgb(217, 58, 58);
+    font-family: insregu;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navrelatives{
+    position: relative;
+}
+
+.searchiconnav{
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+        left: 15px;
+}
+
+.hamburgermenunav{
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    padding: 15px 35px;
+    background-color: white;
+  
+}
+
+.hamburgerleft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.hamburgerright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hamburgermenuicon{
+    font-size: 25px;
+    color: black;
+}
+
+.navlogoburgercenter{
+    display: none;
+}
+
+.hamburgermenuiconlittle    {
+    font-size: 25px;
+    color: black;
+}
+
+.hamburgernavlittle{
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    background-color: white;
+}
+
+.searchiconhamburger{
+  font-size: 20px;
+}
+
+.hamburgernavlittleright{
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width:1044px) {
+ 
+    .navchild{
+        display: none;
+    }
+
+    .hamburgermenunav{
+        display: flex;
+    }    
+    
+}
+
+@media only screen and (max-width:764px) {
+ 
+    .hamburgermenunav{
+        display: none;
+    }  
+
+    .hamburgernavlittle{
+        display: flex;
+    }
+
+}
