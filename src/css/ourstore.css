@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.ourstorefather{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.ourstorechild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometoourstorediv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoO{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.ourstoretitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.ourstoretext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.stores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    margin-top: 70px;
+}
+
+.storeschild{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.storetops{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storesbottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storetop{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.storetopphoto{
+    width: 100%;
+    height: 300px;
+}
+
+.storetopimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+
+.storetoptitle{
+    font-family: inssbold;
+    font-size: 20px;
+    color: black;
+}
+
+.storetoptext, .storetopcontact{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618); 
+}
+
+.storetopbutton{
+    width: 220px;
+    height: 50px;
+    color: black;
+    background-color: transparent;
+    border-radius: 99px;
+    border-radius: 1px solid black;
+    font-size: 15px;
+    font-family: inssbold;
+    transition: 0.3s ease;
+}
+
+.storetopbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.storetopimg:hover{
+    scale: 101%;
+    border-radius: 0;
+}
+
+@media only screen and (max-width:768px) {
+    .storetops{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .storesbottom{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .storetop{
+        width: 100%;
+    }
+}

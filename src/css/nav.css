@@ -28,10 +28,64 @@ nav{
     gap: 30px;
 }
 
+.navcontent:hover{
+    color: #D0473E;
+}
+
+.dropdowncontent:hover{
+    color: #D0473E;
+}
+
+.contentfather:hover{
+    overflow: visible;
+}
+
+
 .contentfather{
+    height: 20px;
     display: flex;
     align-items: center;  
     gap: 5px; 
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: overflow 0 3s;
+    cursor: pointer;
+
+}
+
+.contentwithdrop{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.dropdownmenu{
+    margin-top: 45px;
+    position: absolute;
+    width: 260px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    left: 0%;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    -webkit-box-shadow: 0px 11px 27px -10px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 11px 27px -10px rgba(0,0,0,0.07);
+    box-shadow: 0px 11px 27px -10px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+
+.dropdowncontent{
+    font-family: insregu;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
 }
 
 .navcontent{
@@ -39,6 +93,7 @@ nav{
     font-size: 16px;
     color: black;
     text-decoration: none;
+    transition: .5s ease;
 }
 
 .chevarrownav{
@@ -169,6 +224,7 @@ nav{
     display: flex;
     gap: 20px;
 }
+
 
 @media only screen and (max-width:1044px) {
  

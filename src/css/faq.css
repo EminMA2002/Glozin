@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.faqfather{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.faqchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometofaqdiv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoF{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.faqtitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.faqtext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.faqcontentfather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+    margin-top: 100px;
+}
+
+
+.faqcontentchild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqcontentleft{
+    width: 35%;
+    height: 450px;
+    background-color: #F5F5F5;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.faqcontentlefttitle{
+    font-size: 25px;
+    color: black;
+    font-family: inssbold;
+}
+
+.faqcontentlefttext1, .faqcontentlefttext2 {
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);   
+}
+
+.faqcontentleftcontact{
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid black;
+    border-radius: 99px;
+    background-color: white;
+    font-family: inssbold   ;
+    color: black;
+    font-size: 15px;
+}
+
+.faqcontentleftabout{
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid black;
+    border-radius: 99px;
+    background-color: black;
+    font-family: inssbold   ;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.faqcontentright{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faqcontentright1{
+    width: 100%;
+
+}
+
+.faqcontentrightcontent{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.184) ;
+}
+
+.faqcontentrighttitle{
+    font-size: 25px;
+    color: black;
+    font-family: inssbold;   
+}
+
+.faqcontentrightcontenttext{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.41);
+    font-family: inssbold;    
+}
+
+.faqcontentrightcontentplus{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.511);
+    font-family: inssbold;  
+}
+
+
+@media only screen and (max-width:1050px) {
+    .faqcontentfather{
+        padding: 0 3%;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .faqcontentleft{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+   .faqcontentchild{
+    flex-direction: column;
+   }
+
+   .faqcontentleft, .faqcontentright{
+    width: 100%;
+   }
+
+   .faqcontentchild{
+    gap: 70px;
+   }
+
+   .faqcontentleft{
+    height: 400px;
+}
+}

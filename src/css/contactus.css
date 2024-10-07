@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contactusfather{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.contactuschild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometocontactdiv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoC{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.contactustitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.contactustext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.contactusmapfather{
+    width: 100%;
+    height: 60vh;
+    padding: 0 10%;
+    border: 0;
+    margin-top: 80px;
+}
+
+.contactusiframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contactusbottomfather{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactusbottom{
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactusbottomleft{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.customercare, .wholesale, .pressenquiries{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.supportcustomertitle{
+    font-family: inssbold;
+    font-size: 23px;
+    color: black;
+}
+
+.supportcustomertext, .customercaretext, .wholesaletext, .pressenquiriestext{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618); 
+}
+
+.customercaretitle, .wholesaletitle, .pressenquiriestitle{
+    font-family: inssbold;
+    font-size: 18px;
+    color: black;
+}
+
+.contactusbottomright{
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactusrighttitle{
+    font-family: inssbold;
+    font-size: 23px;
+    color: black;
+}
+
+.contactusrighttext{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618);   
+}
+
+.contactusrightinputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contactusrightinputstop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yourname, .youremail{
+    width: 48%;
+    height: 50px;
+    border-radius: 99px;
+    border: 1px solid rgba(0, 0, 0, 0.142);
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.175);
+    padding-left: 20px;
+}
+
+.enteryouremail{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.142);
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.175);
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.contactusrightcheckbox{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618);  
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+.checkboxcontactus{
+    width: 18px;
+    height: 18px;
+}
+
+.contactussendbutton{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 99px;
+    margin-top: 30px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-family: inssbold;
+}
+
+
+
+@media only screen and (max-width:1020px) {
+    .contactusmapfather{
+        padding: 0 3%;
+    }
+    .contactusbottom{
+        padding: 0 3%;}
+}
+
+@media only screen and (max-width:768px) {
+    .contactusbottomleft{
+        width: 100%;
+    }
+    .contactusbottomright{
+        width: 100%;
+    }
+   .contactusbottom{
+    flex-direction: column;
+    gap: 20px;
+   }
+   .yourname, .youremail{
+    width: 100%;}
+    .contactusrightinputstop{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

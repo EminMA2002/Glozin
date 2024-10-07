@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.storelocationfather{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.storelocationchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometostorelocationdiv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoSL{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.storelocationtitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.storelocationtext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.locator{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 0 3%;
+margin-top: 70px;
+}
+
+.locatorchild{
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    overflow: hidden;
+    border: .1px solid rgba(0, 0, 0, 0.148);
+    display: flex;
+}
+
+.locatorleft{
+    width: 23%;
+    height: 100%;
+}
+
+.locations{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+  }
+
+.location{
+    width: 326;
+    height: 135px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.115);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 5%;
+}
+
+.locationname{
+    font-family: inssbold;
+    font-size: 18px;
+}
+
+.locationaddress{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.locationaddresscontent{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.638);
+}
+
+.locatorright{
+    width: 77%;
+    height: 100%;
+}
+
+.locatoriframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media only screen and (max-width:990px) {
+    .locatorchild{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        border-width: 0;
+        border-radius: 0;
+        gap: 30px;
+    }
+    .locatorleft{
+        width: 100%;
+        border: .1px solid rgba(0, 0, 0, 0.148);
+        height: auto;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius:10px ;
+        overflow: hidden;
+    }
+    
+    .location{
+        height: auto;
+        padding: 4%;
+    }
+    
+    .locatorright{
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .locationaddress{
+        flex-direction: row;
+        gap: 3px;
+    }
+}

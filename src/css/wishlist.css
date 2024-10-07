@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wishlistfather{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.wishlistchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometowishlistdiv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoW{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.wishlisttitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.wishlisttext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+
+.recentlyviewedfather{
+    width: 100%;
+    display: flex;
+    padding-top: 120px;
+}
+.recentlyviewedchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.recentlyviewedtitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.recentlyviewedtext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.recentlyviewednotext{
+    margin-top: 20px;
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}

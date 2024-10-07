@@ -3,6 +3,13 @@
 @import url(footter.css);
 @import url(shop.css);
 @import url(aboutus.css);
+@import url(contactus.css);
+@import url(ourstore.css);
+@import url(storelocation.css);
+@import url(compare.css);
+@import url(wishlist.css);
+@import url(recently.css);
+@import url(faq.css);
 
 *{
     margin: 0%;
