@@ -1,19 +1,19 @@
 @font-face {
     font-family: insregu ;
-    src: url(/src/fonts/InstrumentSans-Regular.ttf);
+    src: url(../fonts/InstrumentSans-Regular.ttf);
 }
 
 @font-face {
     font-family: insmed ;
-    src: url(/src/fonts/InstrumentSans-Medium.ttf);
+    src: url(../fonts/InstrumentSans-Medium.ttf);
 }
 
 @font-face {
     font-family: insbold ;
-    src: url(/src/fonts/InstrumentSans-Bold.ttf);
+    src: url(../fonts/InstrumentSans-Bold.ttf);
 }
 
 @font-face {
     font-family: inssbold ;
-    src: url(/src/fonts/InstrumentSans-SemiBold.ttf);
+    src: url(../fonts/InstrumentSans-SemiBold.ttf);
 }
