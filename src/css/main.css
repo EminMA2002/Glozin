@@ -17,21 +17,240 @@
     box-sizing: border-box;
 }
 
+
+
+.signinfather{
+    cursor: url('../images/cursors/close\ \(1\).png'), auto;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.368);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 32%;
+
+}
+
+.signinchild{
+    cursor:default;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7% 5%;
+    position: relative;
+}
+
+.signinx{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.signintitle{
+    text-align: center;
+    font-family: inssbold;
+    font-size: 25px;
+    color: black;
+}
+
+.signintext{
+    text-align: center;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signinemail, .signinpass{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: white;
+    border: .3px solid rgba(0, 0, 0, 0.11);
+    font-size: 15px;
+    font-family: insmed;
+    padding-left: 20px;
+}
+
+.signinemail::placeholder {
+    color: rgba(0, 0, 0, 0.205);
+  }
+
+.signinpass::placeholder {
+    color: rgba(0, 0, 0, 0.205);
+  }
+
+
+
+.forgetyourpass{
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signinloginbutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: black;
+    font-size: 15px;
+    font-family: inssbold;
+    color: white;
+    border-width: 0;
+}
+
+.signincreatebutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: inssbold;
+    color: black;  
+    border: 1px solid black;
+}
+
+.signincreatebutton:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.signupfather{
+    cursor: url('../images/cursors/close\ \(1\).png'), auto;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.368);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 34%;
+
+}
+
+.signupchild{
+    cursor:default;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7% 6%;
+    position: relative;
+}
+
+
+.signupx{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.signuptitle{
+    text-align: center;
+    font-family: inssbold;
+    font-size: 25px;
+    color: black;
+}
+
+.signuptext{
+    text-align: center;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signupname, .signuplastname, .signupmail, .signuppass{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: white;
+    border: .3px solid rgba(0, 0, 0, 0.11);
+    font-size: 15px;
+    font-family: insmed;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.142);
+}
+
+    .signupname::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signuplastname::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signupmail::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signuppass::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+.singupprivacytext{
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signupcreatebutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: black;
+    font-size: 15px;
+    font-family: inssbold;
+    color: white;
+    border-width: 0;
+}
+
+.signuploginbutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: inssbold;
+    color: black;  
+    border: 1px solid black;
+}
+
+.signuploginbutton:hover{
+    background-color: black;
+    color: white;
+}
+
 .firstsliderfther{
     width: 100%;
     height: 95vh;
     padding-top: 70px;
+    position: relative;
 }
 
 .firstsliderchild{
     width: 100%;
     height: 100%;
+position: relative;
 }
 
 .first{
     width: 100%;
     height: 100%;
-    position: relative;
 }
 
 .siderimg{
@@ -76,6 +295,59 @@
     font-size: 15px;
 }
 
+
+
+.firstsliderleftbutton{
+    cursor: pointer;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 99px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    transition: 0.3s ease ;
+    opacity: 0;
+    border-width: 0;
+}
+
+.firstsliderrightbutton{
+    cursor: pointer;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 99px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease ;
+    opacity: 0;
+    border-width: 0;
+}
+
+.firstsliderfther:hover .firstsliderleftbutton{
+    opacity: 1;
+    left: 2%;
+}
+
+.firstsliderfther:hover .firstsliderrightbutton{
+    opacity: 1;
+    right: 2%;
+}
+
 .topcollectionsfather{
     width: 100%;
     height: 50vh;
@@ -106,6 +378,7 @@ font-size: 40px;
 }
 
 .topcollectionstext{
+    text-align: center;
 font-family: insregu;
 font-size: 15px;
 color: rgba(0, 0, 0, 0.523);
@@ -114,10 +387,18 @@ color: rgba(0, 0, 0, 0.523);
 .topcollectionscircles{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.circletitle:hover{
+    color: #d0473e;
 }
 
 .circle{
+    width: 14%;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,12 +406,12 @@ color: rgba(0, 0, 0, 0.523);
 }
 
 .circlephoto{
-    width: 185px;
-    height: 185px;
+    cursor: pointer;
     border-radius: 99px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .circleimg{
@@ -152,6 +433,7 @@ color: rgba(0, 0, 0, 0.523);
     width: 100%;
     display: flex;
     margin-top: 50px;
+    position: relative;
 }
 
 .bestsellingchild{
@@ -181,17 +463,71 @@ font-size: 15px;
 color: rgba(0, 0, 0, 0.523);
 }
 
+
+.bestsellingleftbutton{
+    cursor: pointer;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 99px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    transition: 0.3s ease ;
+    opacity: 0;
+    border-width: 0;
+}
+
+.bestsellingrightbutton{
+    cursor: pointer;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 99px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease ;
+    opacity: 0;
+    border-width: 0;
+}
+
+.bestsellingfather:hover .bestsellingleftbutton{
+    opacity: 1;
+    left: 4%;
+}
+
+.bestsellingfather:hover .bestsellingrightbutton{
+    opacity: 1;
+    right: 5%;
+}
+
 .itemsfather{
     margin-top: 40px;
     width: 100%;;
     display: flex;
+    overflow: hidden;
     justify-content: center;
 }
 
 .items{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    transition: 0.7s ease;
 }
 
 .item{
@@ -199,18 +535,50 @@ color: rgba(0, 0, 0, 0.523);
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    transition: 3s ease;
+    padding-bottom: 2px;
+    position: relative;
 }
 
 .itemphoto{
-    width: 330px;
-    height: 430px;
+    width: 350px;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .itemimg{
+    position: absolute;
+    left: 0%;
+    top: 0% ;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    opacity: 1;
+    transition: .7s ease opacity;
+}
+
+.itemimghover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: .7s ease opacity;
+}
+
+.itemphoto:hover .itemimg{
+    opacity: 0;
+}
+
+.itemphoto:hover .itemimghover{
+    opacity: 1;
+    width: 105%;
+    height: 105%;
 }
 
 .itemtitle{
@@ -245,7 +613,142 @@ color: rgba(0, 0, 0, 0.523);
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
+}
+
+.versionselected{
+    border: 3px solid transparent;
+    outline: 1px solid rgba(0, 0, 0, 0.485);
+}
+
+.righthoverdiv{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.itemphoto:hover .righthoverdiv{
+    opacity: 1;
+    right: 6%;
+}
+
+.rightheart, .rightlayers, .righteye{
+    width: 40px;
+    height: 40px;
+    background-color: white;
     border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightheartlabel, .rightlayerslabel, .righteyelabel{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.rightheartlabelsecondrectangle, .rightlayerslabelsecondrectangle, .righteyelabelsecondrectangle{
+    position: absolute;
+    right: 115%;
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    rotate: 45deg;
+}
+
+.rightheartlabelfirstrectangle, .rightlayerslabelfirstrectangle, .righteyelabelfirstrectangle{
+    border-radius: 3px;
+    right: 120%;
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: black;
+    font-family: insmed;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.rightheart:hover .rightheartlabel{
+    opacity: 1;
+}
+
+.rightlayers:hover .rightlayerslabel{
+    opacity: 1;
+}
+
+.righteye:hover .righteyelabel{
+    opacity: 1;
+}
+
+.rightheart:hover{
+    background-color: black;
+}
+
+.rightheart:hover .rightheartbutton{
+color: white;
+}
+
+.rightlayers:hover{
+    background-color: black;
+}
+
+.rightlayers:hover .rightlayersbutton{
+color: white;
+}
+
+.righteye:hover{
+    background-color: black;
+}
+
+.righteye:hover .righteyebutton{
+color: white;
+}
+
+.rightheartbutton, .rightlayersbutton, .righteyebutton{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomhoverdiv{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    border-radius: 99px;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-family: inssbold;
+    font-size: 15px;
+    bottom: 0%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.bottomhoverdiv:hover{
+    background-color: black;
+    color: white;
+}
+
+.itemphoto:hover .bottomhoverdiv{
+    opacity: 1;
+    bottom: 4%;
 }
 
 .onetimeonlyfather{
@@ -557,6 +1060,7 @@ color: rgba(0, 0, 0, 0.523);
 
 .Hello{
     width: 100%;
+    position: relative;
 }
 
 .Hellochild{
@@ -566,6 +1070,7 @@ color: rgba(0, 0, 0, 0.523);
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    position: relative;
 }
 
 .Hellotitle{
@@ -574,18 +1079,52 @@ color: rgba(0, 0, 0, 0.523);
 }
 
 .Hellotext{
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.415);
     text-align: center;
     font-family: insregu;
     font-size: 15px;
     width: 60%;
 }
 
+.seeallup{
+    transform: translateY(-150px);
+}
+
+.shopbytranslate{
+    transform: translateY(-160px);
+}
+
+.seeall{
+    z-index: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: inssbold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.seeallback{
+    transition: 0.7s ease;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,0) 100%);    
+}
+
 .shopbygram{
+    transition: 0.7s ease;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 170px;
 }
 
 .shopbygramchild{
@@ -620,8 +1159,7 @@ color: rgba(0, 0, 0, 0.523);
 
 .shopbygramcard{
     position: relative;
-    width: 230px;
-    height: 230px;
+    width: 16%;
 }
 
 .shopbygramimg{
@@ -690,4 +1228,16 @@ color: rgba(0, 0, 0, 0.638);
     width: 100%;
     height: .1px;
     background-color: rgba(0, 0, 0, 0.142);
+}
+
+
+.displaynone{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:1025px) {
+
 }

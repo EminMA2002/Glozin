@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -26,14 +27,17 @@
                         <div class="navcontent">Pages</div>
                         <a class="chevarrownav" href=""><i class = "fa-solid fa-chevron-down"></i></a>
                     </div>
-                    <div class="dropdownmenu">
-                        <a class="dropdowncontent" href="contactus.html">Contact Us</a>
-                        <a class="dropdowncontent" href="ourstore.html">Our Store</a>
-                        <a class="dropdowncontent" href="FAQ.html">FAQ</a>
-                        <a class="dropdowncontent" href="compare.html">Compare</a>
-                        <a class="dropdowncontent" href="storelocation.html">Store Location</a>
-                        <a class="dropdowncontent" href="recently.html">Recently veiwed Products</a>
+                    <div class="dropdownmenu__container">
+                        <div class="dropdownmenu">
+                            <a class="dropdowncontent" href="contactus.html">Contact Us</a>
+                            <a class="dropdowncontent" href="ourstore.html">Our Store</a>
+                            <a class="dropdowncontent" href="FAQ.html">FAQ</a>
+                            <a class="dropdowncontent" href="compare.html">Compare</a>
+                            <a class="dropdowncontent" href="storelocation.html">Store Location</a>
+                            <a class="dropdowncontent" href="recently.html">Recently veiwed Products</a>
+                        </div>
                     </div>
+                  
 
                 </div>
                 <div class="contentfather">
@@ -48,7 +52,7 @@
                     <a class="searchiconnav" href=""><i class = "bi bi-search"></i></a>
                     <input class="searchanvbar" type="text" placeholder="I`m looking for...">    
                 </div>
-                <a class="personicon" href=""><i class = "bi bi-person-circle"></i></a>
+                <button class="personicon" href=""><i class = "bi bi-person-circle"></i></button>
                 
                 <div class="navrelatives">
                     <div class="notificationheart">0</div>
@@ -96,18 +100,44 @@
 
     </nav>
 
+    <div class="signinfather displaynone">
+        <div class="signinchild">
+            <a class="signinx" href=""><i class = "bi bi-x-lg"></i></a>
+            <div class="signintitle">Sign In</div>
+            <div class="signintext">Please enter your details below to sign in.</div>
+            <input class="signinemail" placeholder="Your email*" type="text">
+            <input class="signinpass" placeholder="Password*" type="password">
+            <a class="forgetyourpass" href="">Forgot Your Password?</a>
+            <button type="button" class="signinloginbutton">Login</button>
+            <button type="button" class="signincreatebutton">Create Account</button>
+        </div>
+    </div>
+
+    <div class="signupfather displaynone">
+        <div class="signupchild">
+            <a class="signupx" href=""><i class = "bi bi-x-lg"></i></a>
+            <div class="signuptitle">Create Account</div>
+            <div class="signuptext">Please register below to create an account..</div>
+            <input class="signupname" placeholder="First name" type="text">
+            <input class="signuplastname" placeholder="Last name" type="text">
+            <input class="signupmail" placeholder="Your email*" type="text">
+            <input class="signuppass" placeholder="Password*" type="password">
+            <div class="singupprivacytext">Your personal data will be used to support your experience throughout this website, to manage access to your account and for other purposes described in our privacy policy.</div>
+            <button type="button" class="signupcreatebutton">Create Account</button>
+            <button type="button" class="signuploginbutton">Login</button>
+        </div>
+    </div>
+
     <div class="firstsliderfther">
+        <div class="firstsliderleftbuttondiv">
+            <button class="firstsliderleftbutton" href=""><i class = "bx bx-chevron-left"></i></button>
+        </div>
+        <div class="firstsliderrightbuttondiv">
+            <button class="firstsliderrightbutton" href=""><i class = "bx bx-chevron-right"></i></button>
+        </div>
         <div class="firstsliderchild">
-            <div class="first">
-                <div class="slidercontent">
-                    <div class="firstslidercontenttitle">Sweater Collection</div>
-                    <div class="firstslidercontenttext">Online Exclusive</div>
-                    <button class="firstslidercontentbutton">Shop Collection</button>
-                </div>
-                <div class="siderimg">
-                    <img class="sliderphoto" src="src/images/slider1.png" alt="">
-                </div>
-            </div>
+          
+           
         </div>
     </div>
 
@@ -120,45 +150,59 @@
             <div class="topcollectionscircles">
             <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle1.png" alt="">
                     </div>
                     <div class="circletitle">Crop-Top</div>
                 </div>
-            <div class="circle">
+
+                <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle2.png" alt="">
                     </div>
-                    <div class="circletitle">Crop-Top</div>
+                    <div class="circletitle">T-Shirts</div>
                 </div>
-            <div class="circle">
+
+                <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle3.png" alt="">
                     </div>
-                    <div class="circletitle">Crop-Top</div>
+                    <div class="circletitle">Blazers</div>
                 </div>
-            <div class="circle">
+
+                <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle4.png" alt="">
                     </div>
-                    <div class="circletitle">Crop-Top</div>
+                    <div class="circletitle">Coats</div>
                 </div>
-            <div class="circle">
+
+                <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle5.png" alt="">
                     </div>
-                    <div class="circletitle">Crop-Top</div>
+                    <div class="circletitle">Sweaters</div>
                 </div>
-            <div class="circle">
+
+                <div class="circle">
                     <div class="circlephoto">
-                        <img class="circleimg" src="src/images/circle1.png" alt="">
+                        <img class="circleimg" src="src/images/circles/circle6.png" alt="">
                     </div>
-                    <div class="circletitle">Crop-Top</div>
+                    <div class="circletitle">Hoodies</div>
                 </div>
+
             </div>
+            <div></div>
+
         </div>
     </div>
 
     <div class="bestsellingfather">
+        <div class="bestsellingleftbuttondiv">
+            <button class="bestsellingleftbutton" href=""><i class = "bx bx-chevron-left"></i></button>
+        </div>
+        <div class="bestsellingrightbuttondiv">
+            <button class="bestsellingrightbutton" href=""><i class = "bx bx-chevron-right"></i></button>
+        </div>
         <div class="bestsellingchild">
             <div class="bestsellingcontent">
                 <div class="bestsellingtitle">Best Selling</div>
@@ -167,9 +211,35 @@
             <div class="itemsfather">
                 <div class="items">
                     <div class="item">
-                        <div class="itemphoto">
-                            <img class="itemimg" src="src/images/item1.png" alt="">
-                        </div>
+                        <div  class="itemphoto">
+                            <img class="itemimghover" src="src/images/bestselling/item11.png" alt="">
+                            <img data-target-father="1" class="itemimg" src="src/images/bestselling/item1.png" alt="">
+                            <div class="righthoverdiv">
+                                <div class="rightheart">
+                                    <div class="rightheartlabel">
+                                        <div class="rightheartlabelfirstrectangle">Add to wishlist</div>
+                                        <div class="rightheartlabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightheartbutton"><i class = "lni lni-heart"></i></button>
+                                </div>
+                                <div class="rightlayers">
+                                    <div class="rightlayerslabel">
+                                        <div class="rightlayerslabelfirstrectangle">Compare</div>
+                                        <div class="rightlayerslabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightlayersbutton"><i class = "lni lni-layers"></i></button>
+                                </div>
+                                <div class="righteye">
+                                    <div class="righteyelabel">
+                                        <div class="righteyelabelfirstrectangle">Quick view</div>
+                                        <div class="righteyelabelsecondrectangle"></div>
+                                    </div>
+                                    
+                                    <button class="righteyebutton"><i class = "lni lni-eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="bottomhoverdiv">Select Options</button>
+                            </div>
                         <div class="itemtitle">Cotton Long-Sleeve Striped T-shirt</div>
                         <div class="itemstars">
                             <a class="startext" href=""><i class = "bx bxs-star"></i></a>
@@ -181,19 +251,42 @@
                         <div class="itemcost">$115.00</div>
                         <div class="itemversions">
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="1" class="versionimg" src="src/images/bestselling/item1.png" alt="">
                             </div>
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="1" class="versionimg" src="src/images/bestselling/item1low1.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="itemphoto">
-                            <img class="itemimg" src="src/images/item1.png" alt="">
+                            <img class="itemimghover" src="src/images/bestselling/item22.png" alt="">
+                            <img data-target-father="2" class="itemimg" src="src/images/bestselling/item2.png" alt="">
+                            <div class="righthoverdiv">
+                                <div class="rightheart">
+                                    <div class="rightheartlabel">
+                                        <div class="rightheartlabelfirstrectangle">Add to wishlist</div>
+                                        <div class="rightheartlabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightheartbutton"><i class = "lni lni-heart"></i></button>
+                                </div>
+                                <div class="rightlayers">
+                                    <div class="rightlayerslabel">
+                                        <div class="rightlayerslabelfirstrectangle">Compare</div>
+                                        <div class="rightlayerslabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightlayersbutton"><i class = "lni lni-layers"></i></button>
+                                </div>
+                                <div class="righteye">
+                                    <div class="righteyelabel">
+                                        <div class="righteyelabelfirstrectangle">Quick view</div>
+                                        <div class="righteyelabelsecondrectangle"></div>
+                                    </div>
+                                    
+                                    <button class="righteyebutton"><i class = "lni lni-eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="bottomhoverdiv">Select Options</button>
                         </div>
                         <div class="itemtitle">Cotton Long-Sleeve Striped T-shirt</div>
                         <div class="itemstars">
@@ -206,19 +299,43 @@
                         <div class="itemcost">$115.00</div>
                         <div class="itemversions">
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="2" class="versionimg" src="src/images/bestselling/item2.png" alt="">
                             </div>
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="2" class="versionimg" src="src/images/bestselling/item2low1.png" alt="">
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="itemphoto">
-                            <img class="itemimg" src="src/images/item1.png" alt="">
+                            <img class="itemimghover" src="src/images/bestselling/item33.png" alt="">
+                            <img data-target-father="3" class="itemimg" src="src/images/bestselling/item3.png" alt="">
+                            <div class="righthoverdiv">
+                                <div class="rightheart">
+                                    <div class="rightheartlabel">
+                                        <div class="rightheartlabelfirstrectangle">Add to wishlist</div>
+                                        <div class="rightheartlabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightheartbutton"><i class = "lni lni-heart"></i></button>
+                                </div>
+                                <div class="rightlayers">
+                                    <div class="rightlayerslabel">
+                                        <div class="rightlayerslabelfirstrectangle">Compare</div>
+                                        <div class="rightlayerslabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightlayersbutton"><i class = "lni lni-layers"></i></button>
+                                </div>
+                                <div class="righteye">
+                                    <div class="righteyelabel">
+                                        <div class="righteyelabelfirstrectangle">Quick view</div>
+                                        <div class="righteyelabelsecondrectangle"></div>
+                                    </div>
+                                    
+                                    <button class="righteyebutton"><i class = "lni lni-eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="bottomhoverdiv">Select Options</button>
                         </div>
                         <div class="itemtitle">Cotton Long-Sleeve Striped T-shirt</div>
                         <div class="itemstars">
@@ -231,19 +348,43 @@
                         <div class="itemcost">$115.00</div>
                         <div class="itemversions">
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="3" class="versionimg" src="src/images/bestselling/item3.png" alt="">
                             </div>
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="3" class="versionimg" src="src/images/bestselling/item3low1.png" alt="">
                             </div>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="itemphoto">
-                            <video class="itemimg" src="//glozin-demo.myshopify.com/cdn/shop/videos/c/vp/1b355623b0c141b6ae5f4de0b58db562/1b355623b0c141b6ae5f4de0b58db562.HD-1080p-7.2Mbps-32971700.mp4?v=0" autoplay loop muted type="video/mp4"></video>
+                            <img class="itemimghover" src="src/images/bestselling/item44.png" alt="">
+                            <img data-target-father="4" class="itemimg" src="src/images/bestselling/item4.png" alt="">
+                            <div class="righthoverdiv">
+                                <div class="rightheart">
+                                    <div class="rightheartlabel">
+                                        <div class="rightheartlabelfirstrectangle">Add to wishlist</div>
+                                        <div class="rightheartlabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightheartbutton"><i class = "lni lni-heart"></i></button>
+                                </div>
+                                <div class="rightlayers">
+                                    <div class="rightlayerslabel">
+                                        <div class="rightlayerslabelfirstrectangle">Compare</div>
+                                        <div class="rightlayerslabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightlayersbutton"><i class = "lni lni-layers"></i></button>
+                                </div>
+                                <div class="righteye">
+                                    <div class="righteyelabel">
+                                        <div class="righteyelabelfirstrectangle">Quick view</div>
+                                        <div class="righteyelabelsecondrectangle"></div>
+                                    </div>
+                                    
+                                    <button class="righteyebutton"><i class = "lni lni-eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="bottomhoverdiv">Select Options</button>
                         </div>
                         <div class="itemtitle">Cotton Long-Sleeve Striped T-shirt</div>
                         <div class="itemstars">
@@ -256,16 +397,63 @@
                         <div class="itemcost">$115.00</div>
                         <div class="itemversions">
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="4" class="versionimg" src="src/images/bestselling/item4.png" alt="">
                             </div>
                             <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="version">
-                                <img class="versionimg" src="src/images/item1.png" alt="">
+                                <img data-target-child="4" class="versionimg" src="src/images/bestselling/item4low1.png" alt="">
                             </div>
                         </div>
                     </div>
+
+                    <div class="item">
+                        <div class="itemphoto">
+                            <img class="itemimghover" src="src/images/bestselling/item55.png" alt="">
+                            <img data-target-father="5" class="itemimg" src="src/images/bestselling/item5.png" alt="">
+                            <div class="righthoverdiv">
+                                <div class="rightheart">
+                                    <div class="rightheartlabel">
+                                        <div class="rightheartlabelfirstrectangle">Add to wishlist</div>
+                                        <div class="rightheartlabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightheartbutton"><i class = "lni lni-heart"></i></button>
+                                </div>
+                                <div class="rightlayers">
+                                    <div class="rightlayerslabel">
+                                        <div class="rightlayerslabelfirstrectangle">Compare</div>
+                                        <div class="rightlayerslabelsecondrectangle"></div>
+                                    </div>
+                                    <button class="rightlayersbutton"><i class = "lni lni-layers"></i></button>
+                                </div>
+                                <div class="righteye">
+                                    <div class="righteyelabel">
+                                        <div class="righteyelabelfirstrectangle">Quick view</div>
+                                        <div class="righteyelabelsecondrectangle"></div>
+                                    </div>
+                                    
+                                    <button class="righteyebutton"><i class = "lni lni-eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="bottomhoverdiv">Select Options</button>
+                        </div>
+                        <div class="itemtitle">Cotton Long-Sleeve Striped T-shirt</div>
+                        <div class="itemstars">
+                            <a class="startext" href=""><i class = "bx bxs-star"></i></a>
+                            <a class="startext" href=""><i class = "bx bxs-star"></i></a>
+                            <a class="startext" href=""><i class = "bx bxs-star"></i></a>
+                            <a class="startext" href=""><i class = "bx bxs-star"></i></a>
+                            <a class="startext" href=""><i class = "bx bxs-star"></i></a>
+                        </div>
+                        <div class="itemcost">$115.00</div>
+                        <div class="itemversions">
+                            <div class="version">
+                                <img data-target-child="5" class="versionimg" src="src/images/bestselling/item5.png" alt="">
+                            </div>
+                            <div class="version">
+                                <img data-target-child="5" class="versionimg" src="src/images/bestselling/item5low1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -295,75 +483,6 @@
             </div>
             <div class="trendingitemsfather">
                 <div class="trendingitems">
-                    <div class="trendingitem">
-                        <div class="trendingitemphoto">
-                            <img class="trendingitemimg" src="src/images/trending1.png" alt="">
-                        </div>
-                        <div class="trendingitemtitle">Ribbed Short Sleeves Cropped Top</div>
-                        <div class="trendingitemstars">
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                        </div>
-                        <div class="trendingitemcost">$36.00 <span class="discountedcost">$40.00</span></div>
-                        <div class="trendingitemversions">
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trendingitem">
-                        <div class="trendingitemphoto">
-                            <img class="trendingitemimg" src="src/images/trending1.png" alt="">
-                        </div>
-                        <div class="trendingitemtitle">Ribbed Short Sleeves Cropped Top</div>
-                        <div class="trendingitemstars">
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                        </div>
-                        <div class="trendingitemcost">$36.00 <span class="discountedcost">$40.00</span></div>
-                        <div class="trendingitemversions">
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trendingitem">
-                        <div class="trendingitemphoto">
-                            <img class="trendingitemimg" src="src/images/trending1.png" alt="">
-                        </div>
-                        <div class="trendingitemtitle">Ribbed Short Sleeves Cropped Top</div>
-                        <div class="trendingitemstars">
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                            <a class="trendingstartext" href=""><i class = "bx bxs-star"></i></a>
-                        </div>
-                        <div class="trendingitemcost">$36.00 <span class="discountedcost">$40.00</span></div>
-                        <div class="trendingitemversions">
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                            <div class="trendingversion">
-                                <img class="trendingversionimg" src="src/images/item1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="trendingitem">
                         <div class="trendingitemphoto">
                             <img class="trendingitemimg" src="src/images/trending1.png" alt="">
@@ -454,42 +573,47 @@
     </div>
 
     <div class="Hello">
+        
         <div class="Hellochild">
             <div class="Hellotitle">Hello! Everyday for Women's</div>
             <div class="Hellotext">Discover a collection of timeless wardrobe essentials, seamlessly transitioning from work to weekend. Inspired by travel, our America-designed pieces prioritize sustainability with natural fibers and mindful practices. Explore a range of tops, bottoms, sweaters, and accessories in versatile styles, featuring high-quality materials like cotton, linen, tencel, and wool.<br><br>
                 Each piece is crafted with meticulous attention to detail, ensuring a perfect blend of comfort and elegance. Our designs emphasize clean lines and sophisticated silhouettes, making them suitable for any occasion. Whether you’re dressing up for a night out or keeping it casual, our collection offers endless styling possibilities. Embrace the essence of effortless chic with our thoughtfully designed wardrobe staples, and experience the harmony of style, quality, and sustainability. Join us in redefining modern fashion with a conscience.</div>
         </div>
-    </div>
-
-
-    <div class="shopbygram">
-        <div class="shopbygramchild">
-            <div class="shopbygramtitle">Shop by Gram</div>
-            <div class="shopbygramtext">Inspire and let yourself be inspired, from one unique fashion to another.</div>
-            <div class="shopbygramcards">
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
-                </div>
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
-                </div>
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
-                </div>
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
-                </div>
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
-                </div>
-                <div class="shopbygramcard">
-                    <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
-                    <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+        <div class="seeallback seeallup">
+            <button class="seeall">
+                See all information
+            </button>
+        </div>
+   
+        <div class="shopbygram shopbytranslate">
+            <div class="shopbygramchild">
+                <div class="shopbygramtitle">Shop by Gram</div>
+                <div class="shopbygramtext">Inspire and let yourself be inspired, from one unique fashion to another.</div>
+                <div class="shopbygramcards">
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
+                    <div class="shopbygramcard">
+                        <a class="shopbygramphotoicon"><i class = "ri-shopping-bag-2-line"></i></a>
+                        <img class="shopbygramimg" src="src/images/shopbygramcard.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -573,6 +697,10 @@
             
         </div>
     </div>
-
+<script src="src/js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

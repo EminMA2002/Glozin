@@ -171,13 +171,20 @@ font-size: 40px;
 .whychooseuscontentphoto{
     width: 95%;
     height: 505px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .whychooseuscontentimg{
+    transition: .7s ease;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+
+}
+
+.whychooseuscontentphoto:hover .whychooseuscontentimg{
+    transform: scale(1.1 , 1.1);
 }
 
 .whychooseustextcontentdiv{
@@ -406,13 +413,19 @@ font-size: 40px;
 .expandinghorizonsgallerycontentphoto{
     width: 100%;
     height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .expandinghorizonsgallerycontentimg{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    transition: transform 0.7s ease
+}
+
+.expandinghorizonsgallerycontentphoto:hover .expandinghorizonsgallerycontentimg{
+ transform:scale(1.1, 1.1);
 }
 
 .expandinghorizonstextcontentdiv{

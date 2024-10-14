@@ -73,3 +73,660 @@ font-size: 34px;
     font-family: inssbold;
     font-size: 15px;
 }
+
+.shopfather{
+    margin-top: 100px;
+    display: flex;
+    padding: 0 3%;
+    justify-content: center;
+}
+
+.shopchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5%;
+    position: relative;
+    align-items: start;
+}
+
+.shopleft{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: sticky;
+    top: 100px;
+}
+
+.shopcategories{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.procate, .avail, .price, .brand, .color, .size{
+    font-family: inssbold;
+    font-size: 16px;
+    color: black;
+}
+
+.shopcategory{
+    cursor: pointer;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.142);
+}
+
+.shopcategoryhead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopleftplus{
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+}
+
+.shopcategorycontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    height: 0;
+    margin-top: 0;
+    transition: .3s ease;
+}
+
+.shopcategorycontenta{
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+}
+
+.availcheck{
+    display: flex;
+    gap: 10px;
+}
+
+.checkboxtitle{
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+}
+
+.top_colors, .bottom_colors{
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+}
+
+.black{
+height: 25px;
+    width: 25px;
+    border-radius: 99px;
+    background-color: black;
+    border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.blue{
+    height: 25px;
+    width: 25px;
+    border-radius: 99px;
+    background-color: #0000FF;
+    border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.cyan{
+    height: 25px;
+    width: 25px;
+        border-radius: 99px;
+        background-color: #00FFFF;
+        border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.green{
+    height: 25px;
+    width: 25px;
+        border-radius: 99px;
+        background-color: #008000;
+        border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.darkgray{
+    height: 25px;
+    width: 25px;
+        border-radius: 99px;
+        background-color: #808080;
+        border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.gray{
+    height: 25px;
+    width: 25px;
+        border-radius: 99px;
+        background-color: #C0C0C0;
+        border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.beige{
+    height: 25px;
+    width: 25px;
+        border-radius: 99px;
+        background-color: #F5DEB3;
+        border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+.white{
+    height: 25px;
+    width: 25px;
+    border-radius: 99px;
+    background-color: white;
+    border: 2px solid white;
+    outline: .3px solid rgba(0, 0, 0, 0.322);
+}
+
+.sizeboxes{
+    display: flex;
+    gap: 20px;
+}
+
+.sizebox{
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    border: .3px solid rgba(0, 0, 0, 0.182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sizeboxs, .sizeboxm, .sizeboxl{
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    font-family: insregu;
+    width: 100%;
+    height: 100%;
+}
+
+.sizeboxs:hover{
+    color: white;
+}
+.sizeboxm:hover{
+    color: white;
+}
+.sizeboxl:hover{
+    color: white;
+}
+
+.sizebox:hover{
+    background-color: black;
+    color: white;   
+}
+
+.discoverphoto{
+width: 100%;
+}
+
+.discoverimg{
+    object-fit: cover;
+    width: 100%;
+}
+
+.pricesboxofshop{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.minpricebox{
+    width: 40%;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.boxminus{
+    font-family: insregu;
+    font-size:10px;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.maxpricebox{
+    width: 40%;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.pricebarshopdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.pricebarshop{
+    margin-top: 15px;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.pricebarshopcircle1{
+    width: 10px;
+    height: 10px;
+    outline: 5px solid black;
+    background-color: white;
+    border-radius: 99px;
+    position: absolute;
+    left: 8%;
+    top: 60%;
+}
+
+.pricebarshopcircle2{
+    width: 10px;
+    height: 10px;
+    outline: 5px solid black;
+    background-color: white;
+    border-radius: 99px;
+    position: absolute;
+    right: 8%;
+    top: 60%;
+}
+
+.pricespace{
+    margin-top: 20px;
+    margin-left: 7%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;   
+}
+
+.priceboldspace{
+    margin-left: 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: insbold;
+    font-size: 15px;   
+}
+
+.shopright{
+    width: 70%;
+}
+
+.shoprightchild{
+    width: 100%;
+}
+
+.shoprighttoolbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.resultsamount{
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sortbuyfather{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    height: 20px;
+}
+
+.sortbuy{
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sortbuyselected{
+    color: rgba(0, 0, 0, 0.852);
+    text-decoration: none;
+    font-family: inssbold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sortbuychev{
+    margin-top: 3px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.sortbuycategoriesinvisiblediv{
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding-top: 30px;
+    transition: 0.3s ease opacity;
+        opacity: 0;
+    height: 300px;
+}
+
+.sortbuyrightmenu{
+    display: flex;
+    gap: 20px;
+}
+
+.sortbuycategoriesinvisible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px;
+    gap: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.081);
+    transition: 0.3s ease;
+    opacity: 1;
+}
+
+.sortbutcategory{
+    color: rgba(0, 0, 0, 0.447);
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+}
+
+.shopitemsfather{
+    margin-top: 40px;
+    width: 100%;;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.shopitems{
+    width: 100%;
+    gap: 30px;
+    transition: 0.7s ease;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+}
+
+.shopitem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 3s ease;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.shopitemphoto{
+    width: 100%;
+    aspect-ratio: 1/ 1.5;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.shopitemimg{
+    position: absolute;
+    left: 0%;
+    top: 0% ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: .7s ease opacity;
+}
+
+.shopitemimghover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: .7s ease opacity;
+}
+
+.shopitemphoto:hover .shopitemimg{
+    opacity: 0;
+}
+
+.shopitemphoto:hover .shopitemimghover{
+    opacity: 1;
+    width: 105%;
+    height: 105%;
+}
+
+.shopitemtitle{
+    font-family: inssbold;
+    font-size: 15px;
+}
+
+.shopitemstars{
+    font-size: 12px;
+}
+
+.shopstartext{
+    color: #f3b400;
+}
+
+.shopitemcost{
+    font-family: insbold;
+    font-size: 15px;
+}
+
+.shopitemversions{
+    display: flex;
+    gap: 10px;
+}
+
+.shopversion{
+    width: 30px;
+    height: 30px;
+}
+
+.shopversionimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.shopversionselected{
+    border: 3px solid transparent;
+    outline: 1px solid rgba(0, 0, 0, 0.485);
+}
+
+.shoprighthoverdiv{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.shopitemphoto:hover .shoprighthoverdiv{
+    opacity: 1;
+    right: 6%;
+}
+
+.shoprightheart, .shoprightlayers, .shoprighteye{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoprightheartlabel, .shoprightlayerslabel, .shoprighteyelabel{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.shoprightheartlabelsecondrectangle, .shoprightlayerslabelsecondrectangle, .shoprighteyelabelsecondrectangle{
+    position: absolute;
+    right: 115%;
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    rotate: 45deg;
+}
+
+.shoprightheartlabelfirstrectangle, .shoprightlayerslabelfirstrectangle, .shoprighteyelabelfirstrectangle{
+    border-radius: 3px;
+    right: 120%;
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: black;
+    font-family: insmed;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.shoprightheart:hover .shoprightheartlabel{
+    opacity: 1;
+}
+
+.shoprightlayers:hover .shoprightlayerslabel{
+    opacity: 1;
+}
+
+.shoprighteye:hover .shoprighteyelabel{
+    opacity: 1;
+}
+
+.shoprightheart:hover{
+    background-color: black;
+}
+
+.shoprightheart:hover .shoprightheartbutton{
+color: white;
+}
+
+.shoprightlayers:hover{
+    background-color: black;
+}
+
+.shoprightlayers:hover .shoprightlayersbutton{
+color: white;
+}
+
+.shoprighteye:hover{
+    background-color: black;
+}
+
+.shoprighteye:hover .shoprighteyebutton{
+color: white;
+}
+
+.shoprightheartbutton, .shoprightlayersbutton, .shoprighteyebutton{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopbottomhoverdiv{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    border-radius: 99px;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-family: inssbold;
+    font-size: 15px;
+    bottom: 0%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.shopbottomhoverdiv:hover{
+    background-color: black;
+    color: white;
+}
+
+.shopitemphoto:hover .shopbottomhoverdiv{
+    opacity: 1;
+    bottom: 4%;
+}
+
+.pageamounts{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pageamount{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 99px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.pageamountbutton{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: insregu;    
+}
+
+.pageamount:hover .pageamountbutton{
+    background-color: black;
+    color: white;
+}
