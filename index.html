@@ -126,6 +126,14 @@
            <div class="openedBag displaynone">
             <div class="openedBagChild">
                 <div class="openedBagChildHeader">Shopping Cart <button><i class = "bi bi-x-lg"></i></button></div>
+                <div class="openedCartDeliveryStatus">
+                    <div class="openedCartDeliveryChild">
+                        <div class="deliveryBar">
+                            <div class="deliveryIcon"><i class = "fa-solid fa-truck-fast"></i></div>
+                        </div>
+                        <div class="deliveryText">Spend $20.00 more to enjoy <span>Free shipping!</span></div>
+                    </div>
+                </div>
                 <div class="cartContents">
                     <div class="cartContent">
                         <div class="addedCartPhoto"><img class="addedCartImg" src="./src/images/bestselling/item1.png" alt=""></div>
@@ -134,7 +142,9 @@
                             <div class="addedCartSize">Size: S</div>
                             <div class="addedCartCost">$180.00</div>
                             <div class="addedCartNumber">
-                                
+                        <button class="addedToCNMinus"><i class = "lni lni-minus"></i></button>
+                        <div class="addedToCNNumber">1</div>
+                        <button class="addedToCNPlus"><i class = "bi bi-plus-lg"></i></button>
                             </div>
                         </div>
                         <div class="addedCartRight">
@@ -142,6 +152,28 @@
                             <button class="addedCartDelete"><i class = "bi bi-trash"></i></button>
                         </div>
                     </div>
+                </div>
+
+                <div class="openedBagHatTrick">
+                    <div class="openedBagHatTrickChild">
+                        <button class="openedBagHatTrickCategory"><i class = "gg-calendar-dates"></i></button>
+                        <div class="openedBagHatTrickLine"></div>
+                        <button class="openedBagHatTrickCategory"><i class = "bx bx-gift"></i></button>
+                        <div class="openedBagHatTrickLine"></div>
+                        <button class="openedBagHatTrickCategory"><i class = "bx bx-box"></i></button>
+                    </div>
+                </div>
+                <div class="openedBagFooter">
+                    <div class="openedBagFooterHead">
+                        <div class="openedBagFooterHeadSub">Subtotal</div>
+                        <div class="openedBagFooterHeadCost">$180.00</div>
+                    </div>
+                    <div class="openedBagFooterAgree">
+                        <input type="checkbox">
+                        <div class="openedBagiagreewith">I agree with Terms & Conditions</div>
+                    </div>
+                    <button class="openedBagViewCartBTN">View Cart</button>
+                    <button class="openedBagCheckoutBTN">Checkout</button>
                 </div>
             </div>
            </div>

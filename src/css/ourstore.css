@@ -10,7 +10,15 @@
 }
 
 
+::-webkit-scrollbar {
+    width: 3px;
+    height: 20px;
+  }
 
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+  }
+  
 .ourstorefather{
     width: 100%;
     display: flex;

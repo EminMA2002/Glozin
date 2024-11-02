@@ -788,3 +788,13 @@ color: rgba(0, 0, 0, 0.638);
 .displaynone{
     display: none;
 }
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+  }

@@ -435,14 +435,21 @@ nav {
 .cartContents{
     width: 100%;
     display: flex;
+    padding: 0 2%;
+    margin-top: 20px;
 }
 
 .cartContent{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
 
 .addedCartPhoto{
-    width: 100px;
+    width: 110px;
+    height: 110px;
+    display: flex;
 }
 
 .addedCartImg{
@@ -450,6 +457,30 @@ nav {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.addedCartNumber{
+    width: 90px;
+    height: 30px;
+    background-color:  rgba(0, 0, 0, 0.035);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.addedToCNMinus, .addedToCNPlus{
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addedToCNNumber{
+    font-size: 15px;
+    font-family: insregu;
 }
 
 .addedCartName, .addedCartCost{
@@ -461,6 +492,169 @@ nav {
     font-family: insregu;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.461);
+}
+
+.addedCartMiddle{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addedCartRight{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addedCartEdit, .addedCartDelete{
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.444);
+    cursor: pointer;
+}
+
+.openedCartDeliveryStatus{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openedCartDeliveryChild{
+    width: 100%;
+    height: 100%;
+    background-color: #f8f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 0 5%;
+    flex-direction: column;
+}
+
+.deliveryBar{
+    width: 100%;
+    height: 5px;
+    border-radius: 99px;
+    background-color: rgb(114, 69, 69);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.deliveryIcon{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    border-radius: 99px;
+    border: 1px solid rgb(114, 69, 69);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: rgb(114, 69, 69);
+    padding: 4px;
+}
+
+.deliveryText{
+    font-size: 15px;
+    font-family: insregu;
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.deliveryText span{
+    font-size: 15px;
+    font-family: inssbold;
+    color: rgb(114, 69, 69);
+}
+
+.openedBagHatTrick{
+    width: 100%;
+    height: 50px;
+    margin-top: 150px;
+}
+
+.openedBagHatTrickChild{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-bottom:solid 1px rgba(0, 0, 0, 0.100) ;
+    border-top: solid 1px rgba(0, 0, 0, 0.100);
+    display: flex;
+}
+
+.openedBagHatTrickLine{
+    background-color:  rgba(0, 0, 0, 0.100);
+    width: 1px;
+    height: 100%;
+}
+
+.openedBagHatTrickCategory{
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.700) ;
+    padding: 10px;
+}
+
+.openedBagFooter{
+    width: 100%;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.035);
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.openedBagViewCartBTN{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: inssbold;
+}
+
+.openedBagCheckoutBTN{
+    width: 100%;
+    height: 50px;   
+    border-radius: 99px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    font-family: inssbold;
+}
+
+
+.openedBagFooterHead{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: insmed;
+}
+
+
+.openedBagFooterAgree{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    font-family: insregu;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.382);
+}
+
+.openedBagFooterAgree input{
+    width: 15px;
+    border: 0;
+    height: 15px;
+    border-width: 0
 }
 
 
