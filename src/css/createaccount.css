@@ -1,3 +1,7 @@
+@import url(nav.css);
+@import url(fonts.css);
+@import url(footter.css);
+
 *{
     margin: 0;
     padding: 0;

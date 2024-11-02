@@ -4,22 +4,27 @@ const hamburgermenuicon = document.querySelector(".hamburgermenuicon")
 
 hamburgermenuicon.addEventListener("click", () => {
     hamurgeropened.style.width = "100%"
-    if (window.screen.width < "768px") {
-        hamurgeropenedchild.style.width = "40%"
-    } else {
+    console.log(window.innerWidth);
+    
+    if (window.innerWidth < 768) {
         hamurgeropenedchild.style.width = "70%"
+    } else {
+        hamurgeropenedchild.style.width = "40%"
     }
 })
 
 hamurgeropened.addEventListener("click", () => {
-    hamurgeropened.style.removeProperty("width")
-    hamurgeropened.style.removeProperty("width")
+    hamurgeropened.style.width="0"
 })
 
 hamurgeropenedchild.addEventListener("click", (e) => {
     e.stopPropagation()
 })
 
+
+window.addEventListener("resize", ()=>{
+ hamurgeropened.style.width="0"
+})
 
 
 const searchiconhamburger = document.querySelector(".searchiconhamburger")
@@ -82,3 +87,27 @@ signupfather.addEventListener("click", ()=>{
 signupchild.addEventListener("click", (e)=>{
     e.stopPropagation();
 });
+
+
+const bag = document.querySelectorAll(".bag")
+const openedBag = document.querySelector(".openedBag")
+const openedBagChildHeader = document.querySelector(".openedBagChildHeader button")
+const openedBagChild = document.querySelector(".openedBagChild")
+
+for(let i = 0; i < bag.length; ++i){
+    bag[i].addEventListener("click",()=>{
+        openedBag.classList.remove("displaynone")
+    })
+}
+
+openedBagChildHeader.addEventListener("click",()=>{
+    openedBag.classList.add("displaynone")
+})
+
+openedBagChild.addEventListener("click",(e)=>{
+    e.stopPropagation()
+})
+
+openedBag.addEventListener("click",()=>{
+    openedBag.classList.add("displaynone")
+})

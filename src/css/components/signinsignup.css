@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.signinfather{
+    cursor: url('../images/cursors/close\ \(1\).png'), auto;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.368);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 32%;
+
+}
+
+.signinchild{
+    cursor:default;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7% 5%;
+    position: relative;
+}
+
+.signinx{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.signintitle{
+    text-align: center;
+    font-family: inssbold;
+    font-size: 25px;
+    color: black;
+}
+
+.signintext{
+    text-align: center;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signinemail, .signinpass{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: white;
+    border: .3px solid rgba(0, 0, 0, 0.11);
+    font-size: 15px;
+    font-family: insmed;
+    padding-left: 20px;
+}
+
+.signinemail::placeholder {
+    color: rgba(0, 0, 0, 0.205);
+  }
+
+.signinpass::placeholder {
+    color: rgba(0, 0, 0, 0.205);
+  }
+
+
+
+.forgetyourpass{
+    text-decoration: none;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signinloginbutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: black;
+    font-size: 15px;
+    font-family: inssbold;
+    color: white;
+    border-width: 0;
+}
+
+.signincreatebutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: inssbold;
+    color: black;  
+    border: 1px solid black;
+}
+
+.signincreatebutton:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.signupfather{
+    cursor: url('../images/cursors/close\ \(1\).png'), auto;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.368);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 34%;
+
+}
+
+.signupchild{
+    cursor:default;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7% 6%;
+    position: relative;
+}
+
+
+.signupx{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.signuptitle{
+    text-align: center;
+    font-family: inssbold;
+    font-size: 25px;
+    color: black;
+}
+
+.signuptext{
+    text-align: center;
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signupname, .signuplastname, .signupmail, .signuppass{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: white;
+    border: .3px solid rgba(0, 0, 0, 0.11);
+    font-size: 15px;
+    font-family: insmed;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.142);
+}
+
+    .signupname::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signuplastname::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signupmail::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+    .signuppass::placeholder {
+        color: rgba(0, 0, 0, 0.205);
+    }
+
+.singupprivacytext{
+    font-family: insmed;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.393); 
+}
+
+.signupcreatebutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: black;
+    font-size: 15px;
+    font-family: inssbold;
+    color: white;
+    border-width: 0;
+}
+
+.signuploginbutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: inssbold;
+    color: black;  
+    border: 1px solid black;
+}
+
+.signuploginbutton:hover{
+    background-color: black;
+    color: white;
+}

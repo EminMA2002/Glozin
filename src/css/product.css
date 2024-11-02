@@ -1,3 +1,8 @@
+@import url(nav.css);
+@import url(fonts.css);
+@import url(footter.css);
+@import url(./components/signinsignup.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -211,10 +216,34 @@
 
 .buyitnow{
     width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.toCartNumber{
+    width: 160px;
+    border-radius: 99px;
+    background-color: rgba(0, 0, 0, 0.068);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toCNNumber{
+    font-size: 15px;
+    font-family: insregu;
+    color: rgb(0, 0, 0);
+}
+
+.toCNMinus, .toCNPlus{
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-weight: bolder;
 }
 
 .buyitnowbutton{
-    width: 100%;
+    width: 250px;
     border-radius: 99px;
     height: 50px;
     background-color: black;
@@ -222,6 +251,33 @@
     border: 0;
     font-size: 15px;
     font-family: inssbold;
+}
+
+.buyItNowLike, .buyItNowCompare{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyItNowLike:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.buyItNowCompare:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.buyitnowbutton:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .productspecs{
@@ -449,3 +505,72 @@ color: rgba(0, 0, 0, 0.523);
     opacity: 1;
     right: 5%;
 }
+
+
+.line{
+    margin-top: 100px;
+    width: 100%;
+    height: .1px;
+    background-color: rgba(0, 0, 0, 0.142);
+}
+
+
+.displaynone{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .productchild{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+    }
+    .productleft{
+        position: static;
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        scroll-snap-type:x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .productleft::-webkit-scrollbar {
+        display: none;
+    }
+
+    .mainphoto{
+        scroll-snap-align: start;
+        overflow: visible;
+        min-width: 470px;
+        border-radius: 10px;
+    }
+    .mainimg{
+        min-width: 470px;
+        border-radius: 5px;
+    }
+    .secondphotos{
+        display: flex;
+        gap: 30px;
+    }
+    .secondphoto{
+        scroll-snap-align: start;
+        width: 470px;
+    }
+    .secondimg{
+        width: 470px;
+    }
+
+    .productright{
+        width: 100%;
+    }
+    .productfather{
+        padding: 0 3%;
+    }
+    
+}
+    
+
+
