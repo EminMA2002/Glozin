@@ -91,7 +91,7 @@ font-size: 34px;
 }
 
 .shopleft{
-    width: 20%;
+    width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -99,6 +99,33 @@ font-size: 34px;
     position: sticky;
     top: 100px;
 }
+
+.shopleftmini{
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.17);
+    cursor: url('../images/cursors/close\ \(1\).png'), auto;
+}
+
+.shopleftminichild{
+width: 35%;
+min-height: 100vh;
+background-color: white;
+padding: 0 20px;
+transition: 5s ease opacity;
+opacity: 0;
+cursor: default;
+overflow-y: scroll;
+}
+
 
 .shopcategories{
     display: flex;
@@ -120,6 +147,26 @@ font-size: 34px;
     display: flex;
     flex-direction: column;
     border-bottom: solid 1px rgba(0, 0, 0, 0.142);
+}
+
+.filtertitle{
+    font-size: 20px;
+    font-family: insbold;
+}
+
+.leftfilter{
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.142);  
+    align-items: center;
+}
+
+.filterx{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
 
 .shopcategoryhead{
@@ -388,6 +435,29 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.filterbuttondiv{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 4px;
+    display: none;
+}
+
+.filterbutton{
+width: 100%;
+height: 100%;
+background-color: transparent;
+color: white;
+font-size: 15px;
+font-family: inssbold;
+align-items: center;
+justify-content: center;
+display: flex;
+gap: 5px;
+border: 0;
 }
 
 .sortbuyfather{
@@ -729,4 +799,22 @@ color: white;
 .pageamount:hover .pageamountbutton{
     background-color: black;
     color: white;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .shopleft{
+        display: none; 
+    }
+    .shopright{
+        width: 100%;
+    }
+    .resultsamount{
+        display: none;
+    }
+    .filterbuttondiv{
+        display: flex;
+    }
 }

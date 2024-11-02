@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.createacc{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.createaccchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 3%;
+}
+
+.hometocreateaccdiv{
+    text-align: center;
+    font-family: insregu;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+
+.hometoC{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+.createacctitle{
+    text-align: center;
+    font-family: insmed;
+font-size: 34px;
+}
+
+.createacctext{
+    text-align: center;
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.creatingfather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 0 30%;
+}
+
+.creatingchild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.creatingname, .creatinglast, .creatingemail, .creatingpass{
+    width: 100%;
+    height: 50px;
+    border: .4px solid rgba(0, 0, 0, 0.081);
+    border-radius: 99px;
+    font-family: insregu;
+    color: rgba(0, 0, 0, 0.185);
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+.creatingtext{
+    width: 100%;
+    font-family: insregu;
+    color: black;
+    font-size: 15px;
+}
+
+.creatingbutton{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 99px;
+    background-color: black;
+}
+
+.creatingbuttona{
+    color: white;
+    font-size: 15px;
+    font-family: inssbold;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:990px) {
+    .creatingfather{
+        padding: 0 10%;
+    }
+}

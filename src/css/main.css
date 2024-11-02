@@ -10,6 +10,9 @@
 @import url(wishlist.css);
 @import url(recently.css);
 @import url(faq.css);
+@import url(loginregister.css);
+@import url(createaccount.css);
+@import url(product.css);
 
 *{
     margin: 0%;
@@ -1233,11 +1236,4 @@ color: rgba(0, 0, 0, 0.638);
 
 .displaynone{
     display: none;
-}
-
-
-
-
-@media only screen and (max-width:1025px) {
-
 }
