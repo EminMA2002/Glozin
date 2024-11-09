@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function uploadProduct(formData) {
   try {
-    const res = await fetch("http://localhost:3000/api/admin/product", {
+    const res = await fetch("https://glozin.vercel.app/api/admin/product", {
       method: "POST",
       body: formData,
     });
