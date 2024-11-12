@@ -643,3 +643,9 @@ body {
   border: 0;
   outline: 0;
 }
+
+#circleChart {
+  width: 500px !important;
+  height: 500px !important;
+} 
+
