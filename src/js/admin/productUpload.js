@@ -1,11 +1,9 @@
 const API_URL = "https://glozin-backend.onrender.com/";
 
-
 document.addEventListener("DOMContentLoaded", () => {
   const addButtonElement = document.getElementById("addButton");
   const colorsContainerElement = document.getElementById("colorsContainer");
   const colorElement = document.getElementById("color");
-  
 
   const colors = {};
 
@@ -96,10 +94,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function uploadProduct(formData) {
   try {
-    const res = await fetch("https://glozin-backend.onrender/api/admin/product", {
-      method: "POST",
-      body: formData,
-    });
+    const res = await fetch(
+      "https://bramble-blue-venom.glitch.me/api/admin/product",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
     const data = await res.json();
     console.log(data);
   } catch (error) {
