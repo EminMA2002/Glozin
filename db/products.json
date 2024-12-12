@@ -1,0 +1,335 @@
+{
+    "products": [
+        {
+            "id": "12345abcd6789ef0123456789",
+            "brand": "BlueWave",
+            "title": "Cotton Long-Sleeve Striped T-shirt",
+            "price": 49.99,
+            "discountPercentage": 15,
+            "viewCount": 120,
+            "sizes": [
+                "Xs",
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Gray",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_2.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_3.jpg?v=1715851717&width=720"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_7.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_8.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_9.jpg?v=1715851717&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "1.23456789012345678",
+            "description": "A stylish slim fit jean for casual wear, perfect for everyday outfits."
+        },
+        {
+            "id": "23456bcde7890fg1234567890",
+            "brand": "UrbanTech",
+            "title": "Plain Cotton Undershirt - Wide Neck",
+            "price": 59.99,
+            "discountPercentage": 20,
+            "viewCount": 250,
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "white",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_2.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_1.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_9.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_10.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 50,
+            "sku": "2.34567890123456789",
+            "description": "A comfortable hoodie with a bold graphic print, designed for streetwear."
+        },
+        {
+            "id": "34567cdef8901gh2345678901",
+            "brand": "Sportify",
+            "title": "Elastic Waist Cotton Short T-shirt",
+            "price": 29.99,
+            "discountPercentage": 10,
+            "viewCount": 85,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "white",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_1.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_2.jpg?v=1715853068&width=720"
+                    ]
+                },
+                {
+                    "name": "olive",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_4.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_5.jpg?v=1715853068&width=720"
+                    ]
+                }
+            ],
+            "stock": 70,
+            "sku": "3.45678901234567890",
+            "description": "Lightweight running shorts with moisture-wicking fabric for ultimate comfort."
+        },
+        {
+            "id": "45678def0123gh4567890123",
+            "brand": "OutdoorX",
+            "title": "Waterproof Hiking Jacket",
+            "price": 129.99,
+            "discountPercentage": 30,
+            "viewCount": 150,
+            "sizes": [
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Green",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_1.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_2.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_3.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 80,
+            "sku": "4.56789012345678901",
+            "description": "A durable jacket designed for hiking in various weather conditions."
+        },
+        {
+            "id": "56789ghij234kl5678901234",
+            "brand": "TechWear",
+            "title": "Smartphone-Compatible Winter Gloves",
+            "price": 19.99,
+            "discountPercentage": 25,
+            "viewCount": 200,
+            "sizes": [
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_3_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_3_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Gray",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_2.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 150,
+            "sku": "5.67890123456789012",
+            "description": "Touchscreen-compatible gloves for cold weather, allowing easy use of devices."
+        },
+        {
+            "id": "67890ijkl345mn6789012345",
+            "brand": "EcoFit",
+            "title": "Organic Cotton Jogging Pants",
+            "price": 39.99,
+            "discountPercentage": 10,
+            "viewCount": 180,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Charcoal",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Navy",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_4.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 120,
+            "sku": "6.78901234567890123",
+            "description": "Comfy joggers made from organic cotton for a relaxed, eco-friendly fit."
+        },
+        {
+            "id": "78901jklm456no7890123456",
+            "brand": "FitMax",
+            "title": "Compression Sports T-shirt",
+            "price": 49.99,
+            "discountPercentage": 5,
+            "viewCount": 50,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Red",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_4.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 90,
+            "sku": "7.89012345678901234",
+            "description": "A tight-fit compression t-shirt to enhance performance during workouts."
+        },
+        {
+            "id": "89012mnop567pq8901234567",
+            "brand": "BeachVibes",
+            "title": "Summer Beach Shorts",
+            "price": 24.99,
+            "discountPercentage": 15,
+            "viewCount": 130,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Turquoise",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Yellow",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_4.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 160,
+            "sku": "8.90123456789012345",
+            "description": "Light and breathable shorts perfect for a day at the beach."
+        },
+        {
+            "id": "90123opqr678rs9012345678",
+            "brand": "Fashionista",
+            "title": "Luxe Velvet Dress",
+            "price": 79.99,
+            "discountPercentage": 10,
+            "viewCount": 300,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Red",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_4.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 75,
+            "sku": "9.01234567890123456",
+            "description": "A luxurious velvet dress that offers a perfect balance of elegance and comfort."
+        },
+        {
+            "id": "01234qrst567tu0123456789",
+            "brand": "Cosmic",
+            "title": "Galaxy Print Hoodie",
+            "price": 59.99,
+            "discountPercentage": 20,
+            "viewCount": 230,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "Xl"
+            ],
+            "colors": [
+                {
+                    "name": "Purple",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_2.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_3.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_4.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 60,
+            "sku": "10.12345678901234567",
+            "description": "A hoodie with a mesmerizing galaxy print, perfect for stargazing nights."
+        }
+    ]
+}

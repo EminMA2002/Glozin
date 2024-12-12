@@ -177,6 +177,7 @@
 }
 
 .morecolorsimagesdiv{
+    cursor: pointer;
     width: 50px;
 }
 

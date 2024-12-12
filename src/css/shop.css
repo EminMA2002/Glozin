@@ -558,6 +558,7 @@ border: 0;
 }
 
 .shopitem{
+    cursor: pointer;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -753,6 +754,7 @@ color: white;
 }
 
 .shopbottomhoverdiv{
+    cursor: pointer;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;

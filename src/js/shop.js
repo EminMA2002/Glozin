@@ -70,20 +70,31 @@ window.addEventListener("resize", () => {
 
 // ________________________________________________________
 
-const API_URL = "http://192.168.176.11:3000/api/user/product"
+const resultsamount = document.querySelector(".resultsamount")
 
-async function fetchProducts() {
+const shopitems = document.querySelector(".shopitems")
+
+const API_URL = "../../db/products.json"
+
+async function getProducts() {
   try {
     const res = await fetch(API_URL);
     const data = await res.json();
-    const shopitems = document.querySelector(".shopitems")
+    console.log(data);
 
-for (let i = 0; i < data.length; ++i) {
-  shopitems.innerHTML += `
-  <div class="shopitem">
-                                        <div  class="shopitemphoto">
-                                            <img class="shopitemimghover" src="src/images/bestselling/item11.png" alt="">
-                                            <img data-target-father="1" class="shopitemimg" src="http://192.168.176.11:3000${data[i].colors[0].img}" alt="">
+
+    function resultNumber(){
+      resultsamount.innerHTML = `There are ${data.products.length} results in total`
+    }
+
+    resultNumber();
+
+    for (let i = 0; i < data.products.length; ++i) {
+      shopitems.innerHTML += `
+  <div id=${data.products[i].id} class="shopitem">
+                                        <div id=${data.products[i].id} class="shopitemphoto">
+                                            <img class="shopitemimghover" src="${data.products[i].colors[0].photos[1]}" alt="">
+                                            <img data-target-father="${i}" class="shopitemimg" src="${data.products[i].colors[0].photos[0]}" alt="">
                                             <div class="shoprighthoverdiv">
                                                 <div class="shoprightheart">
                                                     <div class="shoprightheartlabel">
@@ -110,7 +121,7 @@ for (let i = 0; i < data.length; ++i) {
                                             </div>
                                             <button class="shopbottomhoverdiv">Select Options</button>
                                             </div>
-                                        <div class="shopitemtitle">${data[i].title}</div>
+                                        <div class="shopitemtitle">${data.products[i].title}</div>
                                         <div class="shopitemstars">
                                             <a class="shopstartext" href=""><i class = "bx bxs-star"></i></a>
                                             <a class="shopstartext" href=""><i class = "bx bxs-star"></i></a>
@@ -118,23 +129,51 @@ for (let i = 0; i < data.length; ++i) {
                                             <a class="shopstartext" href=""><i class = "bx bxs-star"></i></a>
                                             <a class="shopstartext" href=""><i class = "bx bxs-star"></i></a>
                                         </div>
-                                        <div class="shopitemcost">$${data[i].price}</div>
+                                        <div class="shopitemcost">$${data.products[i].price}</div>
                                         <div class="shopitemversions">
                                             <div class="shopversion">
-                                                <img data-target-child="1" class="shopversionimg" src="http://192.168.176.11:3000${data[i].colors[0].img}" alt="">
+                                                <img data-target-child="${i}" class="shopversionimg" src="${data.products[i].colors[0].photos[0]}" alt="">
                                             </div>
-                                            <div class="version">
-                                                <img data-target-child="1" class="shopversionimg" src="src/images/bestselling/item1low1.png" alt="">
+                                            <div class="shopversion">
+                                                <img data-target-child="${i}" class="shopversionimg" src="${data.products[i].colors[1].photos[0]}" alt="">
                                             </div>
                                         </div>
                                     </div>`
-}
+    }
 
+    const shopitemphoto = document.querySelectorAll(".shopitemphoto")
+
+      for(i=0; i<shopitemphoto.length; ++i){
+        shopitemphoto[i].addEventListener("click",(e)=>{
+          const productId = e.currentTarget.getAttribute("id");
+
+          window.location.href = `../../products.html?id=${productId}`;       
+        })
+    }
   } catch (error) {
     console.log(error);
 
   }
 }
 
-fetchProducts();
+getProducts();
+
+
+function setupitemphoto(){
+  document.addEventListener("click", (e)=>{
+  let childindex = e.target.dataset.targetChild
+  
+  if(childindex){
+      const childs = document.querySelectorAll(`[data-target-child="${childindex}"]`)
+     let father = document.querySelector(`[data-target-father="${childindex}"]`)
+      father.src = e.target.src
+  for(let i = 0; i < childs.length; ++i){
+      childs[i].classList.remove("versionselected")
+      e.target.classList.add("versionselected")
+  }
+  }
+  })
+  }
+  
+  setupitemphoto();
 

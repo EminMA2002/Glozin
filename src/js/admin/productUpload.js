@@ -1,5 +1,3 @@
-const API_URL = "https://glozin-backend.onrender.com/";
-
 document.addEventListener("DOMContentLoaded", () => {
   const addButtonElement = document.getElementById("addButton");
   const colorsContainerElement = document.getElementById("colorsContainer");
@@ -95,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function uploadProduct(formData) {
   try {
     const res = await fetch(
-      "https://bramble-blue-venom.glitch.me/api/admin/product",
+      "https://picturesque-fanatical-beret.glitch.me/api/admin/product",
       {
         method: "POST",
         body: formData,
