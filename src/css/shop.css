@@ -750,6 +750,8 @@ color: white;
     border: 0;
     display: flex;
     align-items: center;
+    cursor: pointer;
+
     justify-content: center;
 }
 
@@ -844,4 +846,16 @@ color: white;
 
 .displaynone{
     display: none;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .shopleftminichild{
+        width: 60%;
+    }
+}
+
+.opacity1{
+    opacity: 1;
 }

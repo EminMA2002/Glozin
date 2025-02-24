@@ -12,10 +12,11 @@
     transition: 3s ease;
     padding-bottom: 2px;
     position: relative;
+    scroll-snap-align: start;
 }
 
 .itemphoto{
-    width: 350px;
+    width: 335px;
     height: 420px;
     position: relative;
     overflow: hidden;
@@ -115,10 +116,11 @@
     width: 40px;
     height: 40px;
     background-color: white;
-    border-radius: 99px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .rightheartlabel, .rightlayerslabel, .righteyelabel{
@@ -198,6 +200,11 @@ color: white;
     justify-content: center;
 }
 
+.rightheartbuttonBlack{
+    background-color: black;
+    color: white;
+}
+
 .bottomhoverdiv{
     left: 50%;
     transform: translateX(-50%);
@@ -224,3 +231,4 @@ color: white;
     opacity: 1;
     bottom: 4%;
 }
+

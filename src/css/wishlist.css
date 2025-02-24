@@ -106,238 +106,12 @@ font-size: 34px;
 .wishlistitemschild{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
     grid-auto-flow: row;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
-
-
-/* Sonra */
-
-
-.wishitem{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: 3s ease;
-    padding-bottom: 2px;
-    position: relative;
-}
-
-.wishitemphoto{
-    width: 100%;
-    aspect-ratio: 1/ 1.5;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.wishitemimg{
-    position: absolute;
-    left: 0%;
-    top: 0% ;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 1;
-    transition: .7s ease opacity;
-}
-
-.wishitemimghover{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: .7s ease opacity;
-}
-
-.wishitemphoto:hover .wishitemimg{
-    opacity: 0;
-}
-
-.wishitemphoto:hover .wishitemimghover{
-    opacity: 1;
-    width: 105%;
-    height: 105%;
-}
-
-.wishitemtitle{
-    font-family: inssbold;
-    font-size: 15px;
-}
-
-.wishitemstars{
-    font-size: 12px;
-}
-
-.wishstartext{
-    color: #f3b400;
-}
-
-.wishitemcost{
-    font-family: insbold;
-    font-size: 15px;
-}
-
-.wishitemversions{
-    display: flex;
-    gap: 10px;
-}
-
-.wishversion{
-    width: 30px;
-    height: 30px;
-}
-
-.wishversionimg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.wishversionselected{
-    border: 3px solid transparent;
-    outline: 1px solid rgba(0, 0, 0, 0.485);
-}
-
-.wishrighthoverdiv{
-    position: absolute;
-    top: 3%;
-    right: 0%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    opacity: 0;
-    transition: .3s ease;
-}
-
-.wishitemphoto:hover .wishrighthoverdiv{
-    opacity: 1;
-    right: 6%;
-}
-
-.wishrightx, .wishrightlayers, .wishrighteye{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 99px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wishrightxlabel, .wishrightlayerslabel, .wishrighteyelabel{
-    display: flex;
-    align-items: center;
-    opacity: 0;
-    transition: .3s ease;
-}
-
-.wishrightxlabelsecondrectangle, .wishrightlayerslabelsecondrectangle, .wishrighteyelabelsecondrectangle{
-    position: absolute;
-    right: 115%;
-    width: 7px;
-    height: 7px;
-    background-color: black;
-    rotate: 45deg;
-}
-
-.wishrightxlabelfirstrectangle, .wishrightlayerslabelfirstrectangle, .wishrighteyelabelfirstrectangle{
-    border-radius: 3px;
-    right: 120%;
-    position: absolute;
-    width: 70px;
-    height: 20px;
-    background-color: black;
-    font-family: insmed;
-    font-size: 8px;
-    color: white;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-}
-
-.wishrightx:hover .wishrightxlabel{
-    opacity: 1;
-}
-
-.wishrightlayers:hover .wishrightlayerslabel{
-    opacity: 1;
-}
-
-.wishrighteye:hover .wishrighteyelabel{
-    opacity: 1;
-}
-
-.wishrightx:hover{
-    background-color: black;
-}
-
-.wishrightx:hover .wishrightxbutton{
-color: white;
-}
-
-.wishrightlayers:hover{
-    background-color: black;
-}
-
-.wishrightlayers:hover .wishrightlayersbutton{
-color: white;
-}
-
-.wishrighteye:hover{
-    background-color: black;
-}
-
-.wishrighteye:hover .wishrighteyebutton{
-color: white;
-}
-
-.wishrightxbutton, .wishrightlayersbutton, .wishrighteyebutton{
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wishbottomhoverdiv{
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    width: 300px;
-    height: 45px;
-    border-radius: 99px;
-    border: 0;
-    background-color: white;
-    color: black;
-    font-family: inssbold;
-    font-size: 15px;
-    bottom: 0%;
-    opacity: 0;
-    transition: .3s ease;
-}
-
-.wishbottomhoverdiv:hover{
-    background-color: black;
-    color: white;
-}
-
-.wishitemphoto:hover .wishbottomhoverdiv{
-    opacity: 1;
-    bottom: 4%;
-}
-
 
 .line{
     margin-top: 100px;
@@ -349,4 +123,53 @@ color: white;
 
 .displaynone{
     display: none;
+}
+
+
+.rightxbutton{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightheart:hover{
+    background-color: black;
+}
+
+.rightheart:hover .rightxbutton{
+color: white;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .wishlistitemschild{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .wishlistitemschild{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    .wishlistitemschild{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+
+.width100{
+    width: 335px;
+}
+
+@media only screen and (max-width: 716px) {
+    .width100{
+    width: 100%!important;
+    }
 }

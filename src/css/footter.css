@@ -67,6 +67,13 @@ color: black;
     color: rgba(0, 0, 0, 0.618);
 }
 
+.footterdivcont a{
+    font-family: insregu;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.618);
+    text-decoration: none;
+}
+
 .foottersignupfather{
     display: flex;
     flex-direction: column;

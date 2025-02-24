@@ -91,6 +91,7 @@ margin-top: 70px;
   }
 
 .location{
+    cursor: pointer;
     width: 326;
     height: 135px;
     background-color: white;

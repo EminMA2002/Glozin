@@ -265,6 +265,11 @@
     justify-content: center;
 }
 
+.buyItNowLikeBlack{
+    background-color: black;
+    color: white;   
+}
+
 .buyItNowLike:hover{
     background-color: rgb(0, 0, 0);
     color: white;

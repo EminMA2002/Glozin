@@ -1,26 +1,593 @@
 {
     "products": [
+
         {
-            "id": "12345abcd6789ef0123456789",
-            "brand": "BlueWave",
-            "title": "Cotton Long-Sleeve Striped T-shirt",
-            "price": 49.99,
+            "id": "prod002",
+            "brand": "Giorgio",
+            "title": "Short Striped Strappy Top",
+            "price": "120.00",
             "discountPercentage": 15,
-            "viewCount": 120,
+            "review": 3,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
             "sizes": [
-                "Xs",
                 "S",
                 "M",
-                "L",
-                "Xl"
+                "L"
             ],
             "colors": [
                 {
-                    "name": "Gray",
+                    "name": "Red",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_1_4cdd4501-3542-4d39-a4c0-ba934e9134c5.jpg?v=1723085987&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_2_8ca7fe2a-c9ed-498c-b767-8858fa1015a8.jpg?v=1723085988&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_3_9413cc6c-e7d1-4dc0-8a7e-c2f1216fc837.jpg?v=1723085987&width=720"
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_4_32b41b77-d901-4385-bfef-8d4a022855ad.jpg?v=1723085987&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_5_578e1ace-aa13-4d3a-8e7e-ccabea790680.jpg?v=1723085987&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "GIO-SSST-002",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod003",
+            "brand": "Adidas",
+            "title": "Short-Fit Sporty Round Neck T-shirt",
+            "price": "86.00",
+            "discountPercentage": 15,
+            "review": 6,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_4.jpg?v=1715866412&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_5.jpg?v=1715866412&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_6.jpg?v=1715866412&width=720"
+                    ]
+                },
+                {
+                    "name": "Grey",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_1.jpg?v=1715866413&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_2.jpg?v=1715866413&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_19_3.jpg?v=1715866413&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "ADI-SFTRNT-003",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod004",
+            "brand": "Zara",
+            "title": "Balloon Sleeve Blouse - Square Neck",
+            "price": "300.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_1.jpg?v=1715866293&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_2.jpg?v=1715866293&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_3.jpg?v=1715866293&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_4.jpg?v=1715866293&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_5.jpg?v=1715866293&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_18_6.jpg?v=1715866293&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "ZAR-BSBN-004",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod005",
+            "brand": "Lacoste",
+            "title": "Basic Bright Green Rib Extreme Crop",
+            "price": "68.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "category": "Crop-top",
+            "available": "Out of Stock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Cyan",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_1.jpg?v=1715866167&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_2.jpg?v=1715866167&width=720"
+                    ]
+                },
+                {
+                    "name": "Wheat",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_3.jpg?v=1715866167&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_4.jpg?v=1715866168&width=720"
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_5.jpg?v=1715866168&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_17_6.jpg?v=1715866168&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "LAC-BBGREC-005",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod006",
+            "brand": "Giorgio",
+            "title": "Short Sleeve Round Neck Sweater",
+            "price": "90.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "category": "Sweater",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Olive",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_1.jpg?v=1715866044&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_2.jpg?v=1715866044&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_3.jpg?v=1715866044&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_4.jpg?v=1715866044&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_5.jpg?v=1715866044&width=720"
+                    ]
+                },
+                {
+                    "name": "Ivory",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_7.jpg?v=1715866044&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_16_6.jpg?v=1715866044&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "GIO-SSRN-006",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod007",
+            "brand": "Prada",
+            "title": "Braid Detailed Sleeveless Flow Top",
+            "price": "155.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "Top",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Azure",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_1.jpg?v=1715865873&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_2.jpg?v=1715865872&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_3.jpg?v=1715865873&width=720"
+                    ]
+                },
+                {
+                    "name": "Pink",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_4.jpg?v=1715865872&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_5.jpg?v=1715866044&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_6.jpg?v=1715865873&width=720"
+                    ]
+                },
+                {
+                    "name": "Wheat",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_7.jpg?v=1715865873&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_15_8.jpg?v=1715865872&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "PRA-BDSFT-007",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod008",
+            "brand": "Adidas",
+            "title": "Slim Fit Basic Unpatterned T-shirt",
+            "price": "80.00",
+            "discountPercentage": 15,
+            "review": 4,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_4.jpg?v=1715865777&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_5.jpg?v=1715865777&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_6.jpg?v=1715865777&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_1.jpg?v=1715865777&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_2.jpg?v=1715865777&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_14_3.jpg?v=1715865777&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "ADI-SFBU-008",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod009",
+            "brand": "Zara",
+            "title": "lim Fit Basic Unpatterned T-shirt",
+            "price": "75.00",
+            "discountPercentage": 15,
+            "review": 4,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Silver",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_4.jpg?v=1715865522&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_5.jpg?v=1715865522&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_6.jpg?v=1715865522&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_1.jpg?v=1715865522&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_2.jpg?v=1715865522&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_12_3.jpg?v=1715865522&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "ZAR-SFBU-009",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod010",
+            "brand": "Giorgio",
+            "title": "Ribbed Short Sleeves Cropped Top",
+            "price": "36.00",
+            "discountPercentage": 15,
+            "review": 4,
+            "category": "Crop-top",
+            "available": "Instock",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Grey",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_1.jpg?v=1715865380&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_2.jpg?v=1715865380&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_3.jpg?v=1715865380&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_4.jpg?v=1715865380&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_5.jpg?v=1715865380&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_6.jpg?v=1715865380&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "GIO-RSSCT-010",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod011",
+            "brand": "Giorgio",
+            "title": "Regular-Fit Denim Bermuda Shorts",
+            "price": "22.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "",
+            "category":"Short",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_1.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_2.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_3.jpg?v=1715851543&width=720"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_4.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_5.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_6.jpg?v=1715851543&width=720"
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_7.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_8.jpg?v=1715851543&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_9.jpg?v=1715851543&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "GIO-RFDBS-011",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod012",
+            "brand": "Gap",
+            "title": "Plain Cotton Undershirt - Wide Neck",
+            "price": "35.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "category":"Blazer",
+            "collections": "",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_1.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_2.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_3.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_9.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_10.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_11.jpg?v=1723171159&width=720"
+                    ]
+                },
+                {
+                    "name": "Grey",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_5.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_6.jpg?v=1723171159&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_7.jpg?v=1723171159&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "GAP-PCUW-012",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod013",
+            "brand": "Lacoste",
+            "title": "Short-Sleeved Cotton T-shirt",
+            "price": "48.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "",
+            "category":"top",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_1.jpg?v=1715849766&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_2.jpg?v=1715849766&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_3.jpg?v=1715849766&width=720"
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_6.jpg?v=1715849766&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_7.jpg?v=1715849766&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_8.jpg?v=1715849766&width=720"
+                    ]
+                },
+                {
+                    "name": "Grey",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_4.jpg?v=1715849766&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_5.jpg?v=1715849766&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "LAC-SSCT-013",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod014",
+            "brand": "Prada",
+            "title": "Elastic Waist Cotton Short T-shirt",
+            "price": "78.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "",
+            "category":"Crop-top",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_1.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_2.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_3.jpg?v=1715853068&width=720"
+                    ]
+                },
+                {
+                    "name": "Olive",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_4.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_5.jpg?v=1715853068&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_6.jpg?v=1715853068&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "PRA-EWCST-014",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod015",
+            "brand": "Zara",
+            "title": "Cotton Long-Sleeve Crop T-shirt",
+            "price": "120.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "",
+            "category":"Crop-top",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Azure",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_1.jpg?v=1715851894&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_2.jpg?v=1715851894&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_3.jpg?v=1715851894&width=720"
+                    ]
+                },
+                {
+                    "name": "Grey",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_4.jpg?v=1715851894&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_5.jpg?v=1715851894&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_6.jpg?v=1715851894&width=720"
+                    ]
+                }
+            ],
+            "stock": 100,
+            "sku": "ZAR-CLSCT-015",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
+        },
+        {
+            "id": "prod016",
+            "brand": "Adidas",
+            "title": "Cotton Long-Sleeve Striped T-shirt",
+            "price": "115.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "collections": "",
+            "category":"T-Shirt",
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colors": [
+                {
+                    "name": "Grey",
                     "photos": [
                         "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=720",
                         "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_2.jpg?v=1715851717&width=720",
                         "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_3.jpg?v=1715851717&width=720"
+                    ]
+                },
+                {
+                    "name": "White",
+                    "photos": [
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_4.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_5.jpg?v=1715851717&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_6.jpg?v=1715851717&width=720"
                     ]
                 },
                 {
@@ -33,16 +600,19 @@
                 }
             ],
             "stock": 100,
-            "sku": "1.23456789012345678",
-            "description": "A stylish slim fit jean for casual wear, perfect for everyday outfits."
+            "sku": "ADI-CLST-016",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
         },
         {
-            "id": "23456bcde7890fg1234567890",
-            "brand": "UrbanTech",
-            "title": "Plain Cotton Undershirt - Wide Neck",
-            "price": 59.99,
-            "discountPercentage": 20,
-            "viewCount": 250,
+            "id": "prod017",
+            "brand": "Adidas",
+            "title": "Short-Sleeve Tight Crop Top",
+            "price": "36.00",
+            "discountPercentage": 15,
+            "review": 3,
+            "available": "Instock",
+            "category":"Crop-top",
+            "collections": "",
             "sizes": [
                 "S",
                 "M",
@@ -50,286 +620,24 @@
             ],
             "colors": [
                 {
-                    "name": "white",
+                    "name": "Blue",
                     "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_2.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_1.jpg?v=1723171159&width=720"
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_1.jpg?v=1715849170&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_2.jpg?v=1715849170&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_3.jpg?v=1715849170&width=720"
                     ]
                 },
-                {
-                    "name": "black",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_9.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_5_10.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 50,
-            "sku": "2.34567890123456789",
-            "description": "A comfortable hoodie with a bold graphic print, designed for streetwear."
-        },
-        {
-            "id": "34567cdef8901gh2345678901",
-            "brand": "Sportify",
-            "title": "Elastic Waist Cotton Short T-shirt",
-            "price": 29.99,
-            "discountPercentage": 10,
-            "viewCount": 85,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "white",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_1.jpg?v=1715853068&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_2.jpg?v=1715853068&width=720"
-                    ]
-                },
-                {
-                    "name": "olive",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_4.jpg?v=1715853068&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_5.jpg?v=1715853068&width=720"
-                    ]
-                }
-            ],
-            "stock": 70,
-            "sku": "3.45678901234567890",
-            "description": "Lightweight running shorts with moisture-wicking fabric for ultimate comfort."
-        },
-        {
-            "id": "45678def0123gh4567890123",
-            "brand": "OutdoorX",
-            "title": "Waterproof Hiking Jacket",
-            "price": 129.99,
-            "discountPercentage": 30,
-            "viewCount": 150,
-            "sizes": [
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
                 {
                     "name": "Green",
                     "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_1_1.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Blue",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_2.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_3.jpg?v=1723171159&width=720"
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_5.jpg?v=1715849170&width=720",
+                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_2_6.jpg?v=1715849170&width=720"
                     ]
                 }
             ],
-            "stock": 80,
-            "sku": "4.56789012345678901",
-            "description": "A durable jacket designed for hiking in various weather conditions."
-        },
-        {
-            "id": "56789ghij234kl5678901234",
-            "brand": "TechWear",
-            "title": "Smartphone-Compatible Winter Gloves",
-            "price": 19.99,
-            "discountPercentage": 25,
-            "viewCount": 200,
-            "sizes": [
-                "M",
-                "L"
-            ],
-            "colors": [
-                {
-                    "name": "Black",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_3_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_3_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Gray",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_4_2.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 150,
-            "sku": "5.67890123456789012",
-            "description": "Touchscreen-compatible gloves for cold weather, allowing easy use of devices."
-        },
-        {
-            "id": "67890ijkl345mn6789012345",
-            "brand": "EcoFit",
-            "title": "Organic Cotton Jogging Pants",
-            "price": 39.99,
-            "discountPercentage": 10,
-            "viewCount": 180,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "Charcoal",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Navy",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_6_4.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 120,
-            "sku": "6.78901234567890123",
-            "description": "Comfy joggers made from organic cotton for a relaxed, eco-friendly fit."
-        },
-        {
-            "id": "78901jklm456no7890123456",
-            "brand": "FitMax",
-            "title": "Compression Sports T-shirt",
-            "price": 49.99,
-            "discountPercentage": 5,
-            "viewCount": 50,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "Red",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Blue",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_4.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 90,
-            "sku": "7.89012345678901234",
-            "description": "A tight-fit compression t-shirt to enhance performance during workouts."
-        },
-        {
-            "id": "89012mnop567pq8901234567",
-            "brand": "BeachVibes",
-            "title": "Summer Beach Shorts",
-            "price": 24.99,
-            "discountPercentage": 15,
-            "viewCount": 130,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "Turquoise",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Yellow",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_9_4.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 160,
-            "sku": "8.90123456789012345",
-            "description": "Light and breathable shorts perfect for a day at the beach."
-        },
-        {
-            "id": "90123opqr678rs9012345678",
-            "brand": "Fashionista",
-            "title": "Luxe Velvet Dress",
-            "price": 79.99,
-            "discountPercentage": 10,
-            "viewCount": 300,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "Red",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Black",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_10_4.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 75,
-            "sku": "9.01234567890123456",
-            "description": "A luxurious velvet dress that offers a perfect balance of elegance and comfort."
-        },
-        {
-            "id": "01234qrst567tu0123456789",
-            "brand": "Cosmic",
-            "title": "Galaxy Print Hoodie",
-            "price": 59.99,
-            "discountPercentage": 20,
-            "viewCount": 230,
-            "sizes": [
-                "S",
-                "M",
-                "L",
-                "Xl"
-            ],
-            "colors": [
-                {
-                    "name": "Purple",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_1.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_2.jpg?v=1723171159&width=720"
-                    ]
-                },
-                {
-                    "name": "Black",
-                    "photos": [
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_3.jpg?v=1723171159&width=720",
-                        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_11_4.jpg?v=1723171159&width=720"
-                    ]
-                }
-            ],
-            "stock": 60,
-            "sku": "10.12345678901234567",
-            "description": "A hoodie with a mesmerizing galaxy print, perfect for stargazing nights."
+            "stock": 100,
+            "sku": "ADI-SSTCT-017",
+            "description": "The cotton long-sleeved striped t-shirt features a classic crew neckline, easy short sleeves, a slightly cropped length and a relaxed fit for a truly timeless look."
         }
     ]
 }

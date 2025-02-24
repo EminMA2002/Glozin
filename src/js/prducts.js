@@ -1,5 +1,14 @@
-import { getProducts as  getProductsNav , bagNotification} from "./nav.js";
+import { addToCart } from "./features/cart.js";
+import { checkProductInWishlish, removeFromWishlist, saveToWishlist } from "./features/wishlistController.js";
+import { getAllProducts } from "./utils/productController.js";
 
+const selectedSpec = {
+    count: 1,
+    size: "m",
+    color: "reds"
+}
+
+let toCNNumber = null;
 const productOpen = document.querySelectorAll(".productOpen");
 
 for (let i = 0; i < productOpen.length; ++i) {
@@ -27,13 +36,12 @@ const API_URL_PROD = "../../db/products.json"
 
 async function getProducts() {
     try {
-        const res = await fetch(API_URL_PROD);
-        const data = await res.json();
+        const products = await getAllProducts();
 
 
-        for (let i = 0; i < data.products.length; ++i) {
-            if (data.products[i].id == productId) {
-                product = data.products[i]
+        for (let i = 0; i < products.length; ++i) {
+            if (products[i].id == productId) {
+                product = products[i]
                 break;
             }
         }
@@ -67,7 +75,7 @@ async function getProducts() {
                   <a class="productstar" href=""><i class="bx bxs-star"></i></a>
               </div>
               <div class="reviews">
-                  ${product.viewCount} reviews
+                  ${product.review} reviews
               </div>
           </div>
           <div class="productcost">$${product.price}</div>
@@ -95,7 +103,7 @@ async function getProducts() {
                   <button class="toCNPlus"><i class = "bi bi-plus-lg"></i></button>
               </div>
               <button class="buyitnowbutton">Add to Cart</button>
-              <button class="buyItNowLike"><i class = "lni lni-heart"></i></button>
+              <button id=${product.id} class="buyItNowLike ${checkProductInWishlish(product.id)? "buyItNowLikeBlack" : ""}"><i class = "lni lni-heart"></i></button>
               <button class="buyItNowCompare"><i class = "lni lni-layers"></i></button>
           </div>
           <div class="productspecs">
@@ -190,14 +198,63 @@ async function getProducts() {
             locateSizes();
             locateColors();
             changeColor();
-            addToCart();
+            const buyitnowbutton = document.querySelector(".buyitnowbutton");
+            buyitnowbutton.addEventListener("click", () => {
+
+                if (selectedSpec.color !== "" && selectedSpec.size !== "") {
+                    addToCart({ id: productId, ...selectedSpec })
+                }
+            });
         }
+
+        toCNNumber = document.querySelector(".toCNNumber")
+        const toCNPlus = document.querySelector(".toCNPlus")
+        const toCNMinus = document.querySelector(".toCNMinus")
+
+        toCNPlus.addEventListener("click", incrementCount)
+        toCNMinus.addEventListener("click", decrementCount)
+
+        const buyItNowLike = document.querySelector(".buyItNowLike");
+
+        buyItNowLike.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const ProductId = e.currentTarget.getAttribute("id");
+            if(checkProductInWishlish(ProductId)){
+                removeFromWishlist(ProductId);
+                console.log("salam");
+                
+                buyItNowLike.classList.remove("buyItNowLikeBlack")
+            }else{
+                console.log("sagol");
+                
+                saveToWishlist(ProductId);
+                buyItNowLike.classList.add("buyItNowLikeBlack")
+            }
+        });
 
     } catch (error) {
         console.log(error);
     }
 }
 
+
+
+
+
+
+window.customMethods = {
+    ...window.customMethods,
+    selectSize: function (size) {
+        selectedSpec.size = size;
+        console.log(size);
+
+    },
+
+    selectColor: function (color) {
+        console.log(color);
+        selectedSpec.color = color;
+    }
+}
 async function locateSizes() {
     const productsizeboxes = document.querySelector(".productsizeboxes");
 
@@ -206,7 +263,9 @@ async function locateSizes() {
     for (let i = 0; i < product.sizes.length; i++) {
         productsizeboxes.innerHTML += `
         <div class="prosizebox">
-            <button class="prosizeboxs">${product.sizes[i]}</button>
+            <button  onclick="customMethods.selectSize('${product.sizes[i]}')"
+            
+            class="prosizeboxs">${product.sizes[i]}</button>
         </div>
 `
     }
@@ -217,13 +276,22 @@ async function locateColors() {
 
     for (let i = 0; i < product.colors.length; i++) {
         morecolorsimages.innerHTML += `
-                  <div id=${i} class="morecolorsimagesdiv">
+                  <div id=${i} onclick="customMethods.selectColor('${product.colors[i].name}')" class="morecolorsimagesdiv">
                       <img class="morecolorimage" src="${product.colors[i].photos[0]}" alt="">
                   </div>
     `;
     }
 }
 
+
+function incrementCount() {
+    toCNNumber.innerHTML = ++selectedSpec.count
+}
+function decrementCount() {
+    if (selectedSpec.count > 1) {
+        toCNNumber.innerHTML = --selectedSpec.count
+    }
+}
 
 async function changeColor() {
     const morecolorsimagesdiv = document.querySelectorAll(".morecolorsimagesdiv");
@@ -250,17 +318,6 @@ async function changeColor() {
         });
     }
 }
-let cartProductsId = loadFromLS("cartPro") || [];
-
-function addToCart() {
-    const buyitnowbutton = document.querySelector(".buyitnowbutton");
-    buyitnowbutton.addEventListener("click", () => {
-        cartProductsId.push(productId);
-        saveToLS("cartPro", cartProductsId);
-        getProductsNav();
-        bagNotification();
-    });
-}
 
 function saveToLS(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
@@ -270,6 +327,9 @@ function loadFromLS(key) {
     return JSON.parse(localStorage.getItem(key));
 }
 getProducts();
+
+
+
 
 
 
